@@ -1,0 +1,23 @@
+.crs-carousel {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.crs-slide {
+    text-align: center;
+    padding: 20px;
+}
+
+.crs-slide input[type="radio"] {
+    transform: scale(1.5);
+    margin-top: 10px;
+}
+
+.standalone_slide img {
+    width: 100%;
+}
+
+.standalone_slide input[type="radio"]{
+    opacity: 1;
+}

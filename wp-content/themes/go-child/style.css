@@ -1,0 +1,183 @@
+/*
+Theme Name: Go Child
+Theme URI: https://github.com/godaddy-wordpress/go
+Template: go
+Author: GoDaddy
+Author URI: https://www.godaddy.com
+Description: Go is an innovative, Gutenberg-first WordPress theme, hyper-focused on empowering makers to build beautifully rich websites with WordPress.
+Tags: block-styles,custom-colors,custom-logo,custom-menu,e-commerce,editor-style,one-column,theme-options,threaded-comments,translation-ready,wide-blocks
+Version: 1.8.18.1768392798
+Updated: 2026-01-14 12:13:18
+
+*/
+
+body {        
+    font-size: 16px;
+    line-height: 25.6px;
+}
+:root {
+    --go-social--padding: .5rem;
+    --go--font-family: "Karla", sans-serif;
+    --go--font-size: calc(100 / 120);
+    --go--line-height: auto;
+    --go-heading--font-family: "Work Sans", sans-serif;
+    --go-caption--color--text: hsl(0, 0%, 52%);
+    --go-caption--font-size: .85rem;
+    --go-label--letter-spacing: var(--go-navigation--letter-spacing, normal);
+    --go-label--font-weight: var(--go-navigation--font-weight, 400);
+    --go-label--margin-bottom: .35rem;
+    --go-input--border: var(--go-input--border-width, 2px) var(--go-input--border-style, solid) var(--go-input--border-color, var(--go-heading--color--text));
+    --go-navigation--font-size: inherit;
+    --go-navigation--text-transform: normal;
+    --width-container: 1370px;
+    --height-header: 70px;
+    --height-footer: 214px;
+    --margin-footer: 100px;
+    --scrollbar-width: 20px;
+    --home_slider-slide-width: calc(100vw / 19.2);
+    --go-font-size-body: calc(100vw / 120);
+    --font-family-default: 'InterTight-Regular',sans-serif;
+    --font-family-light: 'InterTight-Light',sans-serif;
+    --font-family-medium: 'InterTight-Medium',sans-serif;
+    --font-family-semibold: 'InterTight-SemiBold',sans-serif;
+    --home_slider-slide-quantity: 1;
+}
+
+
+h1 {
+    font-size: calc(100vw / 34.29);
+}
+
+h2 {
+    font-size: calc(100vw / 53.33);
+    /* line-height: calc(100vw / 200); */
+    font-weight: bold;
+}
+
+h3 {
+    font-size: calc(100vw / 80);
+}
+
+.alignfull {
+    margin-bottom: calc(100vw / 30);
+    margin-top: calc(100vw / 30);
+}
+
+.innerblocks-wrap {
+    width: calc(100vw / 1.4);
+    max-width: calc(100vw / 1.4) !important;
+    margin: auto;
+}
+
+.header__inner {
+    max-width: var(--width-container);
+    height: var(--height-header);
+    padding: 0;
+    margin: auto;
+}
+.header__extras {
+    display: none;
+}
+.header__inner #menu-barzza-menu {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.header__inner li.book_consultation a {
+    opacity: 1;
+    overflow: hidden;
+    font-family: var(--font-family-semibold);
+    color: #0c8ce9;
+    border: 1px solid #0c8ce9;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    padding: 12px 34px;
+}
+
+.wp-block-group .wp-block-group__inner-container {
+    max-width: 100%;
+}
+
+.number {
+    position: relative;
+}
+
+.number span:after {
+    content: '';
+    width: calc(100% - 58px);
+    height: 1px;
+    position: absolute;
+    right: 0;
+    background-color: #e2e6e9;
+    z-index: -1;
+}
+
+.number span {
+    width: 44px;
+    height: 44px;
+    display: grid;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+    font-family: var(--font-family-light);
+    text-align: center;
+    background-color: #0c0c0e;
+    border-radius: 10px;
+    line-height: 1;
+}
+
+@media screen and (max-width: 1460px) and (min-width: 1000px) {
+:root {
+    --width-container: calc(100vw / 1.05);
+    --height-header: calc(100vw / 20.57);
+    --height-footer: calc(100vw / 6.73);
+    --margin-footer: calc(100vw / 14.4);
+    --scrollbar-width: calc(100vw / 72);
+    --home_slider-slide-width: calc(100vw / 19.2);
+}
+}
+@media screen and (min-width: 1921px) {
+    body {        
+        font-size: calc(100vw / 120);
+        line-height: calc(100vw / 75);
+    }
+    :root {
+        --width-container: calc(100vw / 1.4);
+        --height-header: calc(100vw / 27.43);
+        --height-footer: calc(100vw / 8.97);
+        --margin-footer: calc(100vw / 19.2);
+        --scrollbar-width: calc(100vw / 96);
+        --home_slider-slide-width: calc(100vw / 19.2);
+    }
+    .header__inner li.book_consultation {
+        padding: calc(100vw / 480) 0;
+    }
+    .header__inner li.book_consultation a {
+        border: calc(100vw / 1920) solid #0c8ce9;
+        -moz-border-radius: calc(100vw / 384);
+        -webkit-border-radius: calc(100vw / 384);
+        -o-border-radius: calc(100vw / 384);
+        border-radius: calc(100vw / 384);
+        padding: calc(100vw / 160) calc(100vw / 56.47);
+    }
+    main #site-content {
+        padding: calc(100vw / 27.43) 0;
+    }
+
+    .number span {
+        width: calc(100vw / 43.64);
+        height: calc(100vw / 43.64);
+        font-size: calc(100vw / 96);
+        border-radius: calc(100vw / 192);
+    }
+
+    .number span:after {
+        width: calc(100% - calc(100vw / 33.1));
+        height: calc(100vw / 1920);
+    }
+}
