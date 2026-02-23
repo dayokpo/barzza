@@ -83,7 +83,14 @@ function barzza_render_tabs_shortcode( $atts ) {
 					global $post;
 					$post = $tab;
 					setup_postdata( $post );
-					echo apply_filters( 'the_content', $post->post_content );
+					// Apply the_content filters. If a filter hides content for public users
+					// (returns empty), fall back to a basic formatted output so visitors
+					// still see the post body. This helps identify membership/privacy filters.
+					$content = apply_filters( 'the_content', $post->post_content );
+					if ( ! is_user_logged_in() && empty( trim( wp_strip_all_tags( $content ) ) ) ) {
+						$content = wpautop( $post->post_content );
+					}
+					echo $content;
 					?>
 				</div>
 			<?php endforeach; ?>
