@@ -1,0 +1,100 @@
+/* Barzza Tabs Styles */
+
+.barzza-tabs-wrapper {
+	padding: calc(100vw/ 100) 0 0 0;
+	border-radius: 8px;
+	overflow: hidden;
+}
+
+.barzza-tabs-nav {
+	display: block;
+	flex-wrap: wrap;
+    text-align: center;
+}
+
+.barzza-tab-button {
+padding: calc(100vw / 250) calc(100vw / 128);
+    background-color: #f5f5f5;
+    border: 1px solid;
+    border-radius: calc(100vw / 50);
+    cursor: pointer;
+    font-size: calc(100vw / 150);
+    font-weight: 500;
+    color: #333;
+    transition: all 0.3s ease;
+    position: relative;
+    text-align: center;
+    max-width: max-content;
+}
+
+.barzza-tab-button:hover {
+	background-color: #efefef;
+	color: #0c8ce9;
+}
+
+.barzza-tab-button.active {
+	background-color: #0c8ce9;
+	color: #fff;
+	font-weight: normal;
+	outline: none;
+}
+
+.barzza-tabs-content {
+	height: calc(100vw / 3.5);
+}
+
+.barzza-tab-content {
+	display: none;
+	animation: fadeIn 0.3s ease-in;
+}
+
+.barzza-tab-content.active {
+	display: block;
+	height: 100%;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+	.barzza-tabs-nav {
+		flex-direction: column;
+	}
+
+	.barzza-tab-button {
+		width: 100%;
+		border-bottom: 1px solid #ddd;
+	}
+
+	.barzza-tab-button.active {
+		border-left: 4px solid #0c8ce9;
+		border-bottom: 1px solid #ddd;
+	}
+
+	.barzza-tabs-content {
+		padding: 20px;
+		min-height: auto;
+	}
+}
+
+/* Color adjustments for your theme */
+/* .barzza-tab-button.active::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 3px;
+	background-color: #0c8ce9;
+} */
+
+.gallery-slider-display-none {
+    display: none !important;
+}
