@@ -83,7 +83,15 @@ function barzza_render_tabs_shortcode( $atts ) {
 					global $post;
 					$post = $tab;
 					setup_postdata( $post );
-					echo apply_filters( 'the_content', $post->post_content );
+					$content = apply_filters( 'the_content', $post->post_content );
+					// Inject post title as h3 before taxonomy tags div
+					$content = preg_replace(
+						'/<div\s+class="taxonomy-post_tag/',
+						'<h3>' . esc_html( $post->post_title ) . '</h3><div class="taxonomy-post_tag',
+						$content,
+						1
+					);
+					echo $content;
 					?>
 				</div>
 			<?php endforeach; ?>
