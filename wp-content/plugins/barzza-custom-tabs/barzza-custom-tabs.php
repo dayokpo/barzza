@@ -79,15 +79,9 @@ function barzza_render_tabs_shortcode( $atts ) {
 					role="tabpanel"
 					aria-labelledby="barzza-tab-<?php echo esc_attr( $tab->ID ); ?>"
 				>
-					<?php
-					global $post;
-					$post = $tab;
-					setup_postdata( $post );
-					echo apply_filters( 'the_content', $post->post_content );
-					?>
+					<?php echo ( $tab->post_content ); ?>
 				</div>
 			<?php endforeach; ?>
-			<?php wp_reset_postdata(); ?>
 		</div>
 	</div>
 	<?php
