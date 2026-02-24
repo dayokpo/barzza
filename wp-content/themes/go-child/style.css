@@ -99,8 +99,8 @@ h3 {
     opacity: 1;
     overflow: hidden;
     font-family: var(--font-family-semibold);
-    color: #0c8ce9;
-    border: 1px solid #0c8ce9;
+    color: #ac8f64;
+    border: 1px solid #ac8f64;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     -o-border-radius: 5px;
@@ -200,8 +200,8 @@ h3 {
     text-decoration: none;
     line-height: 2.7;
     background-color: transparent;
-    border: 1px solid #0c8ce9;
-    color: #0c8ce9;
+    border: 1px solid #ac8f64;
+    color: #ac8f64;
     border-radius: 5px;
     padding: 0 10px;
 }
@@ -275,7 +275,7 @@ h3 {
         padding: calc(100vw / 480) 0;
     }
     .header__inner li.book_consultation a {
-        border: calc(100vw / 1920) solid #0c8ce9;
+        border: calc(100vw / 1920) solid #ac8f64;
         -moz-border-radius: calc(100vw / 384);
         -webkit-border-radius: calc(100vw / 384);
         -o-border-radius: calc(100vw / 384);
@@ -325,8 +325,8 @@ h3 {
         width: calc(100vw / 8.73);
         height: calc(100vw / 48);
         font-size: calc(100vw / 137.14);
-        border: calc(100vw / 1920) solid #0c8ce9;
-        color: #0c8ce9;
+        border: calc(100vw / 1920) solid #ac8f64;
+        color: #ac8f64;
         border-radius: calc(100vw / 384);
         padding: 0 calc(100vw / 192);
     }

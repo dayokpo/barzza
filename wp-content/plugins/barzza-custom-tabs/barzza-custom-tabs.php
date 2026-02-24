@@ -79,15 +79,14 @@ function barzza_render_tabs_shortcode( $atts ) {
 					role="tabpanel"
 					aria-labelledby="barzza-tab-<?php echo esc_attr( $tab->ID ); ?>"
 				>
-					<?php
-					global $post;
-					$post = $tab;
-					setup_postdata( $post );
-					$content = apply_filters( 'the_content', $post->post_content );
-					// Inject post title as h3 before taxonomy tags div
+					<?php 
+					$content = $tab->post_content;
+					$tag_list = get_the_term_list( $tab->ID, 'post_tag', '<span class="barzza-tag"></span>' );
+					$tags_html = $tag_list ? '<div class="barzza-post-tags">' . $tag_list . '</div>' : '';
+					$replacement = '<h3>' . esc_html( $tab->post_title ) . '</h3>' . $tags_html . '<div class="content';
 					$content = preg_replace(
-						'/<div\s+class="taxonomy-post_tag/',
-						'<h3>' . esc_html( $post->post_title ) . '</h3><div class="taxonomy-post_tag',
+						'/<div\s+class="content/',
+						$replacement,
 						$content,
 						1
 					);
@@ -95,8 +94,8 @@ function barzza_render_tabs_shortcode( $atts ) {
 					?>
 				</div>
 			<?php endforeach; ?>
-			<?php wp_reset_postdata(); ?>
 		</div>
+
 	</div>
 	<?php
 	return ob_get_clean();

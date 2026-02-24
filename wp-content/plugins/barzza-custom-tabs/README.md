@@ -59,7 +59,7 @@ You can customize the tabs using shortcode parameters:
 
 ## Styling
 
-The plugin uses the color `#0c8ce9` (your theme's primary blue) for active tab indicators. To customize colors, edit `/assets/css/tabs.css` or add custom CSS in your theme's `style.css`:
+The plugin uses the color `#ac8f64` (your theme's primary blue) for active tab indicators. To customize colors, edit `/assets/css/tabs.css` or add custom CSS in your theme's `style.css`:
 
 ```css
 .barzza-tab-button.active {

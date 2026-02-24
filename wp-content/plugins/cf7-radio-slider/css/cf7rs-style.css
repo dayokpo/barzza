@@ -92,11 +92,11 @@
 }
 
 .cf7rs-radio-carousel .slick-dots li button:before {
-    color: #0073aa;
+    color: #ac8f64;
 }
 
 .cf7rs-radio-carousel .slick-dots li.slick-active button:before {
-    color: #0073aa;
+    color: #ac8f64;
     opacity: 1;
 }
 

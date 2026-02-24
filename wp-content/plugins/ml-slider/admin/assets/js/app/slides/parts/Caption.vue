@@ -154,7 +154,7 @@ export default {
 								content_style: `
 									.ms-custom-button {
 										display: inline-block;
-										background-color: #0073aa;
+										background-color: #ac8f64;
 										color: #fff;
 										cursor: pointer;
 										padding: 8px 14px;

@@ -25,7 +25,7 @@ if ( current_user_can( acf_get_setting( 'capability' ) ) ) {
 		padding: 0;
 		background: none;
 		border: none;
-		color: #0073aa;
+		color: #ac8f64;
 		text-decoration: underline;
 		cursor: pointer;'
 	);

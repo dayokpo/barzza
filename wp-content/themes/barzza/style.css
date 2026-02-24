@@ -8153,7 +8153,7 @@ button {
 }
 
 button:hover {
-    background-color: #0c8ce9
+    background-color: #ac8f64
 }
 
 button,input {
@@ -8200,7 +8200,7 @@ button,[type=button],[type=reset],[type=submit] {
 }
 
 .b1 {
-    color: #0c8ce9;
+    color: #ac8f64;
     background-color: #fff
 }
 
@@ -8209,12 +8209,12 @@ button,[type=button],[type=reset],[type=submit] {
 }
 
 .b1:before {
-    background-color: #0c8ce9
+    background-color: #ac8f64
 }
 
 .b2 {
     color: #fff;
-    background-color: #0c8ce9
+    background-color: #ac8f64
 }
 
 .b2:hover {
@@ -8480,7 +8480,7 @@ svg {
 
 .swiper-pagination-text_bullets .swiper-pagination-bullet-active {
     color: #fff;
-    background-color: #0c8ce9
+    background-color: #ac8f64
 }
 
 .swiper-pagination-text_bullets .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,.swiper-pagination-text_bullets .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
@@ -8656,9 +8656,9 @@ svg {
 }
 
 #header .primary-navigation-list>li.book_consultation a {
-    color: #0c8ce9;
+    color: #ac8f64;
     font-family: var(--font-family-semibold);
-    border: 1px solid #0c8ce9;
+    border: 1px solid #ac8f64;
     border-radius: 5px;
     padding: 12px 34px;
     overflow: hidden;
@@ -8976,7 +8976,7 @@ body .entry-content {
 }
 
 #all_in_one-home .details .buttons a.how_work {
-    border: 1px solid #0c8ce9;
+    border: 1px solid #ac8f64;
     background-color: transparent
 }
 
@@ -9040,7 +9040,7 @@ body .entry-content {
 }
 
 #rent_it-home .buttons a.partnership {
-    border: 1px solid #0c8ce9;
+    border: 1px solid #ac8f64;
     background-color: transparent
 }
 
@@ -9162,7 +9162,7 @@ body .entry-content {
 }
 
 #from_concept-home .h2 div:first-child span:last-child,#from_concept-home .h2 div:last-child span:first-child {
-    color: #0c8ce9;
+    color: #ac8f64;
     font-family: var(--font-family-light)
 }
 
@@ -9241,7 +9241,7 @@ body .entry-content {
     text-decoration: none;
     line-height: 2.7;
     background-color: transparent;
-    border: 1px solid #0c8ce9;
+    border: 1px solid #ac8f64;
     border-radius: 5px;
     padding: 0 10px
 }
@@ -9297,12 +9297,12 @@ body .entry-content {
 
 #latest_ventures-home .tabs button:hover {
     background: #fff;
-    border: 1px solid #0c8ce9
+    border: 1px solid #ac8f64
 }
 
 #latest_ventures-home .tabs .post.active button {
     color: #fff;
-    background: #0c8ce9
+    background: #ac8f64
 }
 
 #latest_ventures-home .posts {
@@ -9338,7 +9338,7 @@ body .entry-content {
 
 #latest_ventures-home .tags span {
     display: inline-block;
-    color: #0c8ce9;
+    color: #ac8f64;
     font-size: 12px;
     font-family: var(--font-family-medium);
     background-color: #f7f8f8;
@@ -9394,7 +9394,7 @@ body .entry-content {
 }
 
 #latest_ventures-home .buttons a.more {
-    border: 1px solid #0c8ce9;
+    border: 1px solid #ac8f64;
     background-color: transparent
 }
 
@@ -9649,7 +9649,7 @@ body .entry-content {
     text-decoration: none;
     line-height: 2.7;
     background-color: transparent;
-    border: 1px solid #0c8ce9;
+    border: 1px solid #ac8f64;
     border-radius: 5px;
     padding: 0 10px
 }
@@ -9727,7 +9727,7 @@ body .entry-content {
 }
 
 #information-contact_us .social-list a:hover {
-    color: #0c8ce9;
+    color: #ac8f64;
     text-decoration: underline
 }
 
@@ -9864,7 +9864,7 @@ body .entry-content {
 }
 
 #page-contact_us-form .form-field.success input,#page-contact_us-form .form-field.success textarea {
-    border-color: #0c8ce9
+    border-color: #ac8f64
 }
 
 #page-contact_us-form .buttons {
@@ -10295,7 +10295,7 @@ body.page-template-page-journey #footer {
 
 #look-partnership .items span {
     display: inline-block;
-    color: #0c8ce9;
+    color: #ac8f64;
     font-size: 18px;
     line-height: 28.8px;
     background-color: #e0eef7;
@@ -10431,12 +10431,12 @@ body.page-template-page-quiz .wpcf7-popup-ty-wrap {
     top: 50%;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
-    background-color: #0c8ce9;
+    background-color: #ac8f64;
     z-index: 1
 }
 
 #steps_number-quiz .step.active .number:before,#steps_number-quiz .step.active .number:after {
-    background-color: #0c8ce9
+    background-color: #ac8f64
 }
 
 #steps_number-quiz .step.active~.step .number:before,#steps_number-quiz .step.active~.step .number:after {
@@ -10444,7 +10444,7 @@ body.page-template-page-quiz .wpcf7-popup-ty-wrap {
 }
 
 #steps_number-quiz .step.active+.step .number:before {
-    background-color: #0c8ce9
+    background-color: #ac8f64
 }
 
 #steps_number-quiz .number:before {
@@ -10467,13 +10467,13 @@ body.page-template-page-quiz .wpcf7-popup-ty-wrap {
     color: #fff;
     font-family: var(--font-family-light);
     line-height: 32px;
-    background-color: #0c8ce9;
+    background-color: #ac8f64;
     border-radius: 5px;
     z-index: 2
 }
 
 #steps_number-quiz .step.active .number span {
-    background-color: #0c8ce9
+    background-color: #ac8f64
 }
 
 #steps_number-quiz .step.active~.step .number span {
@@ -10481,12 +10481,12 @@ body.page-template-page-quiz .wpcf7-popup-ty-wrap {
 }
 
 #steps_number-quiz .name {
-    color: #0c8ce9;
+    color: #ac8f64;
     margin: 10px 0 0
 }
 
 #steps_number-quiz .step.active .name {
-    color: #0c8ce9
+    color: #ac8f64
 }
 
 #steps_number-quiz .step.active~.step .name {
@@ -10553,7 +10553,7 @@ body.page-template-page-quiz .wpcf7-popup-ty-wrap {
 
 #steps-quiz #step_1 .swiper-pager-long_arrows .swiper-button-next:after,#steps-quiz #step_1 .swiper-pager-long_arrows .swiper-button-prev:after {
     background-color: transparent;
-    border: 1px solid #0c8ce9
+    border: 1px solid #ac8f64
 }
 
 #steps-quiz #step_1 .swiper-pager-long_arrows .swiper-button-prev:after {
@@ -10621,7 +10621,7 @@ body.page-template-page-quiz .wpcf7-popup-ty-wrap {
     background-size: 14px auto;
     background-position: 50%;
     background-repeat: no-repeat;
-    border: 2px solid #0c8ce9;
+    border: 2px solid #ac8f64;
     border-radius: 5px;
     pointer-events: none;
     cursor: pointer;
@@ -10634,12 +10634,12 @@ body.page-template-page-quiz .wpcf7-popup-ty-wrap {
 }
 
 #steps-quiz #step_1 .house_check .checkbox-wrap input:checked+span {
-    background-color: #0c8ce9;
+    background-color: #ac8f64;
     background-image: url(//sagahouses.com/wp-content/themes/woodme/assets/image/icon/checked.svg)
 }
 
 #steps-quiz #step_1 .house_check label {
-    color: #0c8ce9;
+    color: #ac8f64;
     font-size: 20px;
     cursor: pointer;
     user-select: none
@@ -10674,7 +10674,7 @@ body.page-template-page-quiz .wpcf7-popup-ty-wrap {
     height: 40px;
     display: block;
     background-color: #fff;
-    border: 1px solid #0c8ce9;
+    border: 1px solid #ac8f64;
     border-radius: 5px
 }
 
@@ -10751,7 +10751,7 @@ body.page-template-page-quiz .wpcf7-popup-ty-wrap {
     background-size: 14px auto;
     background-position: 50%;
     background-repeat: no-repeat;
-    border: 2px solid #0c8ce9;
+    border: 2px solid #ac8f64;
     border-radius: 50%;
     pointer-events: none;
     cursor: pointer;
@@ -10771,7 +10771,7 @@ body.page-template-page-quiz .wpcf7-popup-ty-wrap {
     position: relative;
     left: 2px;
     top: 2px;
-    background-color: #0c8ce9;
+    background-color: #ac8f64;
     border-radius: 50%
 }
 
@@ -11003,7 +11003,7 @@ body.page-template-page-quiz .wpcf7-popup-ty-wrap {
 }
 
 #steps-quiz #step_3 .form-field-wrap.success input,#steps-quiz #step_3 .form-field-wrap.success textarea {
-    border-color: #0c8ce9
+    border-color: #ac8f64
 }
 
 #steps-quiz #step_3 .wpcf7-response-output {
@@ -11058,7 +11058,7 @@ body.page-template-page-quiz .wpcf7-popup-ty-wrap {
 
 #steps-quiz .buttons .prev {
     width: 100px;
-    border: 1px solid #0c8ce9
+    border: 1px solid #ac8f64
 }
 
 #steps-quiz .buttons .next,#steps-quiz .buttons .send {
@@ -11176,7 +11176,7 @@ body.post-template-single-modular_house #footer {
 
 #spec-modular_house .span_tags span,#spec-modular_house .span_tags a {
     display: inline-block;
-    color: #0c8ce9;
+    color: #ac8f64;
     font-size: 12px;
     text-decoration: none;
     background-color: #f7f8f8;
@@ -11232,7 +11232,7 @@ body.post-template-single-modular_house #footer {
 
 #spec-modular_house .spec-experts-href a {
     display: inline-block;
-    color: #0c8ce9
+    color: #ac8f64
 }
 
 #spec-modular_house .spec-experts-href a span {
@@ -11321,7 +11321,7 @@ body.post-template-single-modular_house #footer {
     max-width: 300px;
     height: 38px;
     display: inline-block;
-    color: #0c8ce9;
+    color: #ac8f64;
     font-size: 14px;
     font-family: var(--font-family-medium);
     line-height: 2.7;
@@ -11416,7 +11416,7 @@ body.post-template-single-modular_house #footer {
 
 #category-modular_houses .span_tags span,#category-modular_houses .span_tags a {
     display: inline-block;
-    color: #0c8ce9;
+    color: #ac8f64;
     font-size: 12px;
     text-decoration: none;
     background-color: #f7f8f8;
@@ -11456,7 +11456,7 @@ body.post-template-single-modular_house #footer {
     text-align: center;
     text-transform: capitalize;
     line-height: 2.5;
-    border: 1px solid #0c8ce9;
+    border: 1px solid #ac8f64;
     border-radius: 5px
 }
 
@@ -11653,7 +11653,7 @@ body.post-template-single-modular_house #footer {
 }
 
 .form-cf7_book .form-field.success input,.form-cf7_book .form-field.success textarea {
-    border-color: #0c8ce9
+    border-color: #ac8f64
 }
 
 .form-cf7_book .buttons {
@@ -12368,7 +12368,7 @@ body.post-template-single-modular_house #footer {
     }
 
     #download_specs-modular_house .download_specs-button a {
-        border: 1px solid #0c8ce9
+        border: 1px solid #ac8f64
     }
 
     #category-modular_houses .entry-header {
@@ -13130,12 +13130,12 @@ body.post-template-single-modular_house #footer {
     display: inline-block;
     text-align: center;
     border-radius: 5px;
-    background: #0c8ce9;
+    background: #ac8f64;
     color: #fff
 }
 
 .new01 input.submit1:hover {
-    background: #0c8ce9
+    background: #ac8f64
 }
 
 a.but01:hover {
@@ -13328,7 +13328,7 @@ a.but01:hover {
     }
 
     #header .primary-navigation-list>li.book_consultation a {
-        border: calc(100vw / 1440) solid #0c8ce9;
+        border: calc(100vw / 1440) solid #ac8f64;
         border-radius: calc(100vw / 288);
         padding: calc(100vw / 120) calc(100vw / 42.35)
     }
@@ -13476,7 +13476,7 @@ a.but01:hover {
     }
 
     #all_in_one-home .details .buttons a.how_work {
-        border: calc(100vw / 1440) solid #0c8ce9
+        border: calc(100vw / 1440) solid #ac8f64
     }
 
     #all_in_one-home .details .buttons a.how_work span {
@@ -13512,7 +13512,7 @@ a.but01:hover {
     }
 
     #rent_it-home .buttons a.partnership {
-        border: calc(100vw / 1440) solid #0c8ce9
+        border: calc(100vw / 1440) solid #ac8f64
     }
 
     #rent_it-home .buttons a span {
@@ -13598,7 +13598,7 @@ a.but01:hover {
         width: calc(100vw / 6.55);
         height: calc(100vw / 36);
         font-size: calc(100vw / 102.86);
-        border: calc(100vw / 1440) solid #0c8ce9;
+        border: calc(100vw / 1440) solid #ac8f64;
         border-radius: calc(100vw / 288);
         padding: 0 calc(100vw / 144)
     }
@@ -13633,7 +13633,7 @@ a.but01:hover {
     }
 
     #latest_ventures-home .tabs button:hover {
-        border: calc(100vw / 1440) solid #0c8ce9
+        border: calc(100vw / 1440) solid #ac8f64
     }
 
     #latest_ventures-home .posts {
@@ -13697,7 +13697,7 @@ a.but01:hover {
     }
 
     #latest_ventures-home .buttons a.more {
-        border: calc(100vw / 1440) solid #0c8ce9
+        border: calc(100vw / 1440) solid #ac8f64
     }
 
     #latest_ventures-home .buttons a span {
@@ -13826,7 +13826,7 @@ a.but01:hover {
         width: calc(100vw / 6);
         height: calc(100vw / 36);
         font-size: calc(100vw / 102.86);
-        border: calc(100vw / 1440) solid #0c8ce9;
+        border: calc(100vw / 1440) solid #ac8f64;
         border-radius: calc(100vw / 288);
         padding: 0 calc(100vw / 144)
     }
@@ -14239,7 +14239,7 @@ a.but01:hover {
     }
 
     #steps-quiz #step_1 .swiper-pager-long_arrows .swiper-button-next:after,#steps-quiz #step_1 .swiper-pager-long_arrows .swiper-button-prev:after {
-        border: calc(100vw / 1440) solid #0c8ce9
+        border: calc(100vw / 1440) solid #ac8f64
     }
 
     #steps-quiz #step_1 .information {
@@ -14279,7 +14279,7 @@ a.but01:hover {
         width: calc(100vw / 60);
         height: calc(100vw / 60);
         background-size: calc(100vw / 102.86) auto;
-        border: calc(100vw / 720) solid #0c8ce9;
+        border: calc(100vw / 720) solid #ac8f64;
         border-radius: calc(100vw / 288)
     }
 
@@ -14306,7 +14306,7 @@ a.but01:hover {
     #steps-quiz #step_2 .quantity button {
         width: calc(100vw / 36);
         height: calc(100vw / 36);
-        border: calc(100vw / 1440) solid #0c8ce9;
+        border: calc(100vw / 1440) solid #ac8f64;
         border-radius: calc(100vw / 288)
     }
 
@@ -14339,7 +14339,7 @@ a.but01:hover {
         width: calc(100vw / 72);
         height: calc(100vw / 72);
         background-size: calc(100vw / 102.86) auto;
-        border: calc(100vw / 720) solid #0c8ce9
+        border: calc(100vw / 720) solid #ac8f64
     }
 
     #steps-quiz #step_2_2 .q_choose .radio .radio-wrap input:checked+span:after,#steps-quiz #step_3 .social_methods-popup .radio .radio-wrap input:checked+span:after {
@@ -14493,7 +14493,7 @@ a.but01:hover {
 
     #steps-quiz .buttons .prev {
         width: calc(100vw / 14.4);
-        border: calc(100vw / 1440) solid #0c8ce9
+        border: calc(100vw / 1440) solid #ac8f64
     }
 
     #steps-quiz .buttons .next,#steps-quiz .buttons .send {
@@ -14703,7 +14703,7 @@ a.but01:hover {
         width: calc(100vw / 8.47);
         height: calc(100vw / 36);
         font-size: calc(100vw / 102.86);
-        border: calc(100vw / 1440) solid #0c8ce9;
+        border: calc(100vw / 1440) solid #ac8f64;
         border-radius: calc(100vw / 288)
     }
 
@@ -15048,7 +15048,7 @@ a.but01:hover {
     }
 
     #header .primary-navigation-list>li.book_consultation a {
-        border: calc(100vw / 1920) solid #0c8ce9;
+        border: calc(100vw / 1920) solid #ac8f64;
         border-radius: calc(100vw / 384);
         padding: calc(100vw / 160) calc(100vw / 56.47)
     }
@@ -15196,7 +15196,7 @@ a.but01:hover {
     }
 
     #all_in_one-home .details .buttons a.how_work {
-        border: calc(100vw / 1920) solid #0c8ce9
+        border: calc(100vw / 1920) solid #ac8f64
     }
 
     #all_in_one-home .details .buttons a.how_work span {
@@ -15232,7 +15232,7 @@ a.but01:hover {
     }
 
     #rent_it-home .buttons a.partnership {
-        border: calc(100vw / 1920) solid #0c8ce9
+        border: calc(100vw / 1920) solid #ac8f64
     }
 
     #rent_it-home .buttons a span {
@@ -15318,7 +15318,7 @@ a.but01:hover {
         width: calc(100vw / 8.73);
         height: calc(100vw / 48);
         font-size: calc(100vw / 137.14);
-        border: calc(100vw / 1920) solid #0c8ce9;
+        border: calc(100vw / 1920) solid #ac8f64;
         border-radius: calc(100vw / 384);
         padding: 0 calc(100vw / 192)
     }
@@ -15353,7 +15353,7 @@ a.but01:hover {
     }
 
     #latest_ventures-home .tabs button:hover {
-        border: calc(100vw / 1920) solid #0c8ce9
+        border: calc(100vw / 1920) solid #ac8f64
     }
 
     #latest_ventures-home .posts {
@@ -15417,7 +15417,7 @@ a.but01:hover {
     }
 
     #latest_ventures-home .buttons a.more {
-        border: calc(100vw / 1920) solid #0c8ce9
+        border: calc(100vw / 1920) solid #ac8f64
     }
 
     #latest_ventures-home .buttons a span {
@@ -15546,7 +15546,7 @@ a.but01:hover {
         width: calc(100vw / 8);
         height: calc(100vw / 48);
         font-size: calc(100vw / 137.14);
-        border: calc(100vw / 1920) solid #0c8ce9;
+        border: calc(100vw / 1920) solid #ac8f64;
         border-radius: calc(100vw / 384);
         padding: 0 calc(100vw / 192)
     }
@@ -15959,7 +15959,7 @@ a.but01:hover {
     }
 
     #steps-quiz #step_1 .swiper-pager-long_arrows .swiper-button-next:after,#steps-quiz #step_1 .swiper-pager-long_arrows .swiper-button-prev:after {
-        border: calc(100vw / 1920) solid #0c8ce9
+        border: calc(100vw / 1920) solid #ac8f64
     }
 
     #steps-quiz #step_1 .information {
@@ -15999,7 +15999,7 @@ a.but01:hover {
         width: calc(100vw / 80);
         height: calc(100vw / 80);
         background-size: calc(100vw / 137.14) auto;
-        border: calc(100vw / 960) solid #0c8ce9;
+        border: calc(100vw / 960) solid #ac8f64;
         border-radius: calc(100vw / 384)
     }
 
@@ -16026,7 +16026,7 @@ a.but01:hover {
     #steps-quiz #step_2 .quantity button {
         width: calc(100vw / 48);
         height: calc(100vw / 48);
-        border: calc(100vw / 1920) solid #0c8ce9;
+        border: calc(100vw / 1920) solid #ac8f64;
         border-radius: calc(100vw / 384)
     }
 
@@ -16059,7 +16059,7 @@ a.but01:hover {
         width: calc(100vw / 96);
         height: calc(100vw / 96);
         background-size: calc(100vw / 137.14) auto;
-        border: calc(100vw / 960) solid #0c8ce9
+        border: calc(100vw / 960) solid #ac8f64
     }
 
     #steps-quiz #step_2_2 .q_choose .radio .radio-wrap input:checked+span:after,#steps-quiz #step_3 .social_methods-popup .radio .radio-wrap input:checked+span:after {
@@ -16218,7 +16218,7 @@ a.but01:hover {
 
     #steps-quiz .buttons .prev {
         width: calc(100vw / 19.2);
-        border: calc(100vw / 1920) solid #0c8ce9
+        border: calc(100vw / 1920) solid #ac8f64
     }
 
     #steps-quiz .buttons .next,#steps-quiz .buttons .send {
@@ -16428,7 +16428,7 @@ a.but01:hover {
         width: calc(100vw / 11.29);
         height: calc(100vw / 48);
         font-size: calc(100vw / 137.14);
-        border: calc(100vw / 1920) solid #0c8ce9;
+        border: calc(100vw / 1920) solid #ac8f64;
         border-radius: calc(100vw / 384)
     }
 
