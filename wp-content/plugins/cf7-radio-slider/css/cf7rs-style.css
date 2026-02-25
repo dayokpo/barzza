@@ -81,6 +81,17 @@
     margin: 0;
 }
 
+.cf7rs-excerpt .standalone_excerpt .wp-block-group__inner-container,
+.cf7rs-excerpt .standalone_excerpt .wp-block-group__inner-container .wp-block-columns, 
+.cf7rs-excerpt .standalone_excerpt .wp-block-group__inner-container .wp-block-columns .wp-block-column {
+    max-width: 100% !important;
+    flex-basis: 100% !important;
+}
+
+.cf7rs-excerpt .standalone_excerpt .wp-block-group__inner-container .wp-block-columns .wp-block-column .description {
+    display: none !important;
+}
+
 .cf7rs-excerpt .glide {
     display: none !important;
 }

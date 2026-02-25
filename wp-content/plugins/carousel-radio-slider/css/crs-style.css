@@ -87,32 +87,32 @@
     font-size: calc(100vw / 50);
 }
 
-.alignfull.standalone_excerpt .content {
+.content {
     margin: calc(100vw / 100) !important;
     display: flex;
     width: 100%;
 }
 
-.alignfull.standalone_excerpt .content .price {
+.content .price {
     width: 100%;
     font-weight: 100;
 }
 
-.alignfull.standalone_excerpt .content .area {
+.content .area {
     width: 100%;
     font-weight: 100;
 }
 
-.alignfull.standalone_excerpt .content .price .price-data span:first-child, .alignfull.standalone_excerpt .content .area .area-data span:first-child {
+.content .price .price-data span:first-child, .content .area .area-data span:first-child {
     font-size: calc(100vw / 75);
     font-weight: 400;
 }
 
-.alignfull.standalone_excerpt .barzza-post-tags{
+.barzza-post-tags{
     margin: calc(100vw / 100) !important;
 }
 
-.alignfull.standalone_excerpt .barzza-post-tags a {
+.barzza-post-tags a {
     padding: calc(100vw / 250) calc(100vw / 128);
     margin: calc(100vw / 400);
     background-color: #f5f5f5;
