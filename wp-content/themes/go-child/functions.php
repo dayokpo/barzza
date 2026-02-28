@@ -32,3 +32,15 @@ add_action( 'wp_enqueue_scripts', 'child_theme_configurator_css', 10 );
 add_filter( 'wpcf7_form_elements', 'do_shortcode' );
 
 // END ENQUEUE PARENT ACTION
+
+// ensure the child stylesheet version is based on filemtime in case the plugin overwrites
+add_filter( 'style_loader_src', 'barzza_child_style_version', 10, 2 );
+function barzza_child_style_version( $src, $handle ) {
+    if ( 'chld_thm_cfg_child' === $handle ) {
+        $path = get_stylesheet_directory() . '/style.css';
+        $ver = file_exists( $path ) ? filemtime( $path ) : '';
+        $src = remove_query_arg( 'ver', $src );
+        $src = add_query_arg( 'ver', $ver, $src );
+    }
+    return $src;
+}
