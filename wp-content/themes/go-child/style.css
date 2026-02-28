@@ -84,6 +84,10 @@ h3 {
     width: 100%;
 }
 
+.partnership-section .innerblocks-wrap p {
+    color: #fff;
+}
+
 .header__inner {
     max-width: var(--width-container);
     height: var(--height-header);
