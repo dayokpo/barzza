@@ -79,7 +79,8 @@ h3 {
 }
 
 .partnership-section .wp-block-cover .wp-block-cover__inner-container,
-.partnership-section .wp-block-cover-image .wp-block-cover__inner-container {
+.partnership-section .wp-block-cover-image .wp-block-cover__inner-container,
+.partnership-section .content-area.entry-content .wp-block-columns {
     max-width: 100% !important;
     width: 100%;
 }
@@ -253,7 +254,7 @@ h3 {
 }
 
 body.has-sticky-header .entry-header {
-    padding-top: calc(100vw / 30);
+    padding: calc(100vw / 30);
 }
 
 .post__meta--wrapper {
@@ -261,7 +262,11 @@ body.has-sticky-header .entry-header {
 }
 
 .content-area.entry-content .wp-block-columns{
-    max-width: calc(100vw / 1.4);
+    max-width: calc(100vw / 1.4) !important;
+}
+
+.comments-area__wrapper {
+    display: none;
 }
 
 @media screen and (min-width: 600px) {
