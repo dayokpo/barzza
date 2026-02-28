@@ -48,6 +48,7 @@
 
 .wpcf7-form-control-wrap {
 	position: relative;
+	margin: calc(100vw / 100);
 }
 
 .wpcf7-not-valid-tip {

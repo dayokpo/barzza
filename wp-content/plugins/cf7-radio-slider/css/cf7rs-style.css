@@ -48,7 +48,7 @@
     font-weight: 500;
     cursor: pointer;
     transition: all 0.3s ease;
-    margin-left: calc(100vw / 100);
+    margin: calc(100vw / 100);
 }
 
 .cf7rs-radio-label input[type="radio"] {

@@ -255,6 +255,7 @@ h3 {
 
 body.has-sticky-header .entry-header {
     padding: calc(100vw / 30);
+    max-width: 100%;
 }
 
 .post__meta--wrapper {
@@ -267,6 +268,10 @@ body.has-sticky-header .entry-header {
 
 .comments-area__wrapper {
     display: none;
+}
+
+#wp-block-themeisle-blocks-advanced-columns-3c364996 {
+    max-width: calc(100vw / 3) !important;
 }
 
 @media screen and (min-width: 600px) {
