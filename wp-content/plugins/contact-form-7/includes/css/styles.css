@@ -83,6 +83,11 @@
 	content: " ";
 }
 
+.uacf7-step.step-content button.uacf7-prev, .uacf7-step.step-content button.uacf7-next {
+	font-size: calc(100vw / 120);
+	padding: calc(100vw / 200) calc(100vw / 100);
+}
+
 .wpcf7-spinner {
 	visibility: hidden;
 	display: inline-block;
