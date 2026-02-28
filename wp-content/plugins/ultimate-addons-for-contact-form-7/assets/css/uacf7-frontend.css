@@ -12,6 +12,11 @@ input[type=checkbox], input[type=radio] {
   width: calc(100vw / 100);
 }
 
+.uacf7-step.step-content button.uacf7-prev, .uacf7-step.step-content button.uacf7-next {
+    font-size: calc(100vw / 120);
+    padding: calc(100vw / 200) calc(100vw / 100);
+}
+
 /* Impreza_8.22 
 *  Theme issues theme have this problem
 */
