@@ -71,7 +71,11 @@
 
 .wpcf7-list-item {
 	display: inline-block;
-	margin: 0 0 0 1em;
+	margin: calc(100vw / 100);
+}
+
+.wpcf7-list-item label {
+	font-size: calc(100vw / 120);
 }
 
 .wpcf7-list-item-label::before,

@@ -51,11 +51,11 @@
     margin: calc(100vw / 100);
 }
 
-.cf7rs-radio-label input[type="radio"] {
-        width: auto;
-        max-width: none; /* don't enforce a small max width */
-    width: 20px;
-    height: 20px;
+.cf7rs-radio-label input[type="radio"], input[type=checkbox], input[type=radio] {
+    width: auto;
+    max-width: none; /* don't enforce a small max width */
+    width: calc(100vw / 100) !important;
+    height: calc(100vw / 100) !important;
     transform: scale(1.2);
     opacity: 1;
 }
