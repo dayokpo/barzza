@@ -24,7 +24,9 @@ function cf7rs_enqueue_scripts() {
         wp_enqueue_script('slick-js', 'https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js', array('jquery'), null, true);
         
         // Plugin styles and scripts
-        wp_enqueue_style('cf7rs-style', plugin_dir_url(__FILE__) . 'css/cf7rs-style.css');
+        $css_path = plugin_dir_path(__FILE__) . 'css/cf7rs-style.css';
+        $css_version = file_exists($css_path) ? filemtime($css_path) : '1.0.0';
+        wp_enqueue_style('cf7rs-style', plugin_dir_url(__FILE__) . 'css/cf7rs-style.css', array(), $css_version);
         wp_enqueue_script('cf7rs-script', plugin_dir_url(__FILE__) . 'js/cf7rs-script.js', array('jquery', 'slick-js'), '1.0.0', true);
 
         // Localize AJAX data for frontend script
