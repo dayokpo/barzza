@@ -68,7 +68,7 @@ h3 {
 }
 
 .innerblocks-wrap {
-    width: calc(100vw / 1.6);
+    width: calc(100vw / 1.4);
     max-width: calc(100vw / 1.4) !important;
     margin: auto;
 }
