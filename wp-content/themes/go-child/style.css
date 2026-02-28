@@ -73,6 +73,17 @@ h3 {
     margin: auto;
 }
 
+.partnership-section .innerblocks-wrap {
+    max-width: 100% !important;
+    width: 100%;
+}
+
+.partnership-section .wp-block-cover .wp-block-cover__inner-container,
+.partnership-section .wp-block-cover-image .wp-block-cover__inner-container {
+    max-width: 100% !important;
+    width: 100%;
+}
+
 .header__inner {
     max-width: var(--width-container);
     height: var(--height-header);
