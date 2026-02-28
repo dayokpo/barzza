@@ -68,24 +68,9 @@ h3 {
 }
 
 .innerblocks-wrap {
-    width: calc(100vw / 1.4);
+    width: calc(100vw / 1.5);
     max-width: calc(100vw / 1.4) !important;
     margin: auto;
-}
-
-.partnership-section .innerblocks-wrap {
-    max-width: 100% !important;
-    width: 100%;
-}
-
-.partnership-section .wp-block-cover .wp-block-cover__inner-container,
-.partnership-section .wp-block-cover-image .wp-block-cover__inner-container {
-    max-width: 100% !important;
-    width: 100%;
-}
-
-.partnership-section .innerblocks-wrap p {
-    color: #fff;
 }
 
 .header__inner {
