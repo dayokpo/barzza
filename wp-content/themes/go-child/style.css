@@ -282,6 +282,10 @@ body.page.has-sticky-header .entry-header {
     max-width: 100% !important;
 }
 
+.barzza-tabs-content .alignfull.standalone_excerpt .button {
+    margin: calc(100vw / 100) !important;
+}
+
 @media screen and (min-width: 600px) {
     .header__titles .custom-logo {
         max-width: calc(100vw / 11) !important;
