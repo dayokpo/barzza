@@ -83,7 +83,7 @@ function barzza_render_tabs_shortcode( $atts ) {
 					$content = $tab->post_content;
 					$tag_list = get_the_term_list( $tab->ID, 'post_tag', '<span class="barzza-tag"></span>' );
 					$tags_html = $tag_list ? '<div class="barzza-post-tags">' . $tag_list . '</div>' : '';
-					$replacement = '<h3>' . esc_html( $tab->post_title ) . '</h3>' . $tags_html . '<div class="content';
+					$replacement = '<h3 class="barzza-tab-title">' . esc_html( $tab->post_title ) . '</h3>' . $tags_html . '<div class="content';
 					$content = preg_replace(
 						'/<div\s+class="content/',
 						$replacement,
