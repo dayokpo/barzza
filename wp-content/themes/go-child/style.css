@@ -222,7 +222,7 @@ h3 {
     padding: 0 10px;
 }
 
-.standalone-step .wp-block-cover__inner-container .content .button a span {
+.button a span {
     line-height: 1;
     background-image: url(sagahouses.com/wp-content/themes/woodme/assets/image/icon/arrow-long-right_blue.svg);
     background-size: 17px auto;
@@ -374,7 +374,7 @@ body.page.has-sticky-header .entry-header {
         margin: 0 0 calc(100vw / 192) 0;
     }
 
-    .standalone-step .wp-block-cover__inner-container .content .button a {
+    .button a {
         width: calc(100vw / 8.73);
         height: calc(100vw / 48);
         font-size: calc(100vw / 137.14);
@@ -384,7 +384,7 @@ body.page.has-sticky-header .entry-header {
         padding: 0 calc(100vw / 192);
     }
 
-    .standalone-step .wp-block-cover__inner-container .content .button a span {
+    .button a span {
         background-size: calc(100vw / 112.94) auto;
         padding: calc(100vw / 192) calc(100vw / 56.47) calc(100vw / 192) 0;
     }
