@@ -53,6 +53,7 @@
                             _ajax_nonce: cf7rs_ajax.nonce
                         }).done(function(resp) {
                             if (resp && resp.success && resp.data) {
+                                console.log('CF7RS Success for "' + labelText + '" in category "' + category + '":', resp.data);
                                     var postUrl = resp.data.post_url || '#';
                                     
                                     // If image exists, prepend it (prefer srcset/sizes to avoid upscaling)
@@ -102,7 +103,11 @@
                                     if ($carousel.hasClass('slick-initialized')) {
                                         $carousel.slick('setPosition');
                                     }
+                                } else {
+                                    console.warn('CF7RS Error for "' + labelText + '" in category "' + category + '":', resp.data || 'Unknown error');
                                 }
+                        }).fail(function(jqXHR, textStatus, errorThrown) {
+                            console.error('CF7RS AJAX failed for "' + labelText + '":', textStatus, errorThrown);
                         });
                     }
                 });
