@@ -11,7 +11,6 @@
             $('.wpcf7-radio.cf7rs-target').each(function() {
                 var $radioGroup = $(this);
                 var radioName = $radioGroup.find('input[type="radio"]').attr('name');
-                var category = $radioGroup.data('category') || 'Standalone'; // Read category from data attribute, default to 'Standalone'
                 
                 if (!radioName || processed[radioName]) {
                     return;
@@ -44,16 +43,15 @@
                     $slide.append($option);
                     $carousel.append($slide);
 
-                    // Request featured image for this option (post title matches labelText in the specified category)
+                    // Request featured image for this option (post title matches labelText)
                     if (typeof cf7rs_ajax !== 'undefined' && cf7rs_ajax.ajax_url) {
                         $.post(cf7rs_ajax.ajax_url, {
                             action: 'cf7rs_get_image',
                             title: labelText,
-                            category: category,
                             _ajax_nonce: cf7rs_ajax.nonce
                         }).done(function(resp) {
                             if (resp && resp.success && resp.data) {
-                                console.log('CF7RS Success for "' + labelText + '" in category "' + category + '":', resp.data);
+                                console.log('CF7RS Success for "' + labelText + '":', resp.data);
                                     var postUrl = resp.data.post_url || '#';
                                     
                                     // If image exists, prepend it (prefer srcset/sizes to avoid upscaling)
@@ -104,7 +102,7 @@
                                         $carousel.slick('setPosition');
                                     }
                                 } else {
-                                    console.warn('CF7RS Error for "' + labelText + '" in category "' + category + '":', resp.data || 'Unknown error');
+                                    console.warn('CF7RS Error for "' + labelText + '":', resp.data || 'Unknown error');
                                 }
                         }).fail(function(jqXHR, textStatus, errorThrown) {
                             console.error('CF7RS AJAX failed for "' + labelText + '":', textStatus, errorThrown);
