@@ -53,6 +53,9 @@ function cf7rs_get_image() {
     }
 
     $title = sanitize_text_field(wp_unslash($_POST['title']));
+    
+    // Get category, default to 'Standalone' if not provided
+    $category = isset($_POST['category']) ? sanitize_text_field(wp_unslash($_POST['category'])) : 'Standalone';
 
     // Find a post with this exact title
     $post = get_page_by_title($title, OBJECT, 'post');
@@ -60,8 +63,8 @@ function cf7rs_get_image() {
         wp_send_json_error('not_found');
     }
 
-    // Ensure post is in category 'Standalone' (by name)
-    if (!has_category('Standalone', $post->ID)) {
+    // Ensure post is in the specified category (by name)
+    if (!has_category($category, $post->ID)) {
         wp_send_json_error('not_in_category');
     }
 
