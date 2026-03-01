@@ -92,6 +92,11 @@ function barzza_render_tabs_shortcode( $atts ) {
 					);
 					echo $content;
 					?>
+					<div class="button">
+						<a href="/addons" class="our_houses b1">
+							<span>Get a catalog</span>
+						</a>
+					</div>
 				</div>
 			<?php endforeach; ?>
 		</div>

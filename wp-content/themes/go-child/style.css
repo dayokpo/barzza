@@ -202,12 +202,12 @@ h3 {
     margin: 0 0 10px;
 }
 
-.standalone-step .wp-block-cover__inner-container .content .button {
+.button {
     background: transparent;
     padding: 0;
 }
 
-.standalone-step .wp-block-cover__inner-container .content .button a {
+.button a {
     width: 220px;
     height: 40px;
     display: inline-block;
