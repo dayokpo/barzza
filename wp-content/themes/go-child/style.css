@@ -258,7 +258,7 @@ body.has-sticky-header .entry-header {
     max-width: 100%;
 }
 
-article .entry-header {
+body.page.has-sticky-header .entry-header .entry-header {
     display: none;
 }
 
