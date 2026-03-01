@@ -128,7 +128,7 @@
     max-width: max-content;
 }
 
-.alignfull.standalone_excerpt .description {
+.barzza-tabs-content .alignfull.standalone_excerpt .description, .alignfull.standalone_excerpt .button {
     margin: calc(100vw / 100) !important;
     width: 100%;
 }
