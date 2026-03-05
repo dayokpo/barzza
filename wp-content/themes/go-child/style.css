@@ -90,7 +90,7 @@ h3 {
 }
 
 .header__inner {
-    max-width: var(--width-container);
+    max-width: calc(100vw / 1.4);
     height: var(--height-header);
     padding: 0;
     margin: auto;
@@ -115,8 +115,8 @@ h3 {
     opacity: 1;
     overflow: hidden;
     font-family: var(--font-family-semibold);
-    color: #ac8f64;
-    border: 1px solid #ac8f64;
+    color: #000000;
+    border: 1px solid #000000;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     -o-border-radius: 5px;
@@ -192,6 +192,7 @@ h3 {
     background-color: #fff;
     border-radius: 10px;
     padding: 20px;
+    opacity: 0.7;
 }
 
 .standalone-step .wp-block-cover__inner-container .content h3 {
@@ -328,7 +329,7 @@ body.page.has-sticky-header .entry-header {
         padding: calc(100vw / 480) 0;
     }
     .header__inner li.book_consultation a {
-        border: calc(100vw / 1920) solid #ac8f64;
+        border: calc(100vw / 1920) solid #000000;
         -moz-border-radius: calc(100vw / 384);
         -webkit-border-radius: calc(100vw / 384);
         -o-border-radius: calc(100vw / 384);

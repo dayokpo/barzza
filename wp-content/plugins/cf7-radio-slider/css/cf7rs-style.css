@@ -107,6 +107,10 @@
     display: none !important;
 }
 
+.cf7rs-excerpt .standalone_excerpt .wp-block-group__inner-container .wp-block-columns .wp-block-column .button  {
+    display: none !important;
+}
+
 .cf7rs-excerpt .glide {
     display: none !important;
 }
