@@ -291,6 +291,125 @@ body.page.has-sticky-header .entry-header {
 	height: calc(100vw / 3);
 }
 
+.b2 {
+    color: #fff;
+    background-color: #ac8f64;
+}
+
+#footer {
+    height: var(--height-footer);
+    position: relative;
+    background-color: #eceeee;
+    overflow: hidden
+}
+
+body:not(.home) #footer {
+    margin-top: var(--margin-footer)
+}
+
+#footer .footer-inner {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 54px 0 50px;
+    width: 100%;
+    max-width: calc(100vw / 1.4);
+    margin: auto;
+}
+
+#footer .social-nav {
+    margin: 15px 0
+}
+
+#footer .footer-navigation-list {
+    display: flex;
+    gap: 44px;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0
+}
+
+#footer .footer-navigation-list>li {
+    display: inline-block
+}
+
+#footer .footer-navigation-list>li a {
+    color: #0c0c0e;
+    font-family: var(--font-family-light);
+    text-decoration: none
+}
+
+#footer .footer-navigation-list>li a:hover {
+    opacity: .6
+}
+
+#footer-navigation .footer-navigation-list>li a {
+    font-size: 20px;
+    font-family: var(--font-family-light)
+}
+
+#social-navigation .footer-navigation-list>li a {
+    font-size: 16px;
+    background-position: 0 50%;
+    background-repeat: no-repeat;
+    padding: 0 0 0 24px
+}
+
+#social-navigation .footer-navigation-list>li.instagram a {
+    background-image: url(//sagahouses.com/wp-content/themes/woodme/assets/image/icon/instagram.svg);
+    background-size: auto 14px
+}
+
+#social-navigation .footer-navigation-list>li.youtube a {
+    background-image: url(//sagahouses.com/wp-content/themes/woodme/assets/image/icon/youtube.svg);
+    background-size: auto 12px
+}
+
+#social-navigation .footer-navigation-list>li.linkedin a {
+    background-image: url(//sagahouses.com/wp-content/themes/woodme/assets/image/icon/linkedin.svg);
+    background-size: auto 14px
+}
+
+#footer .footer-branding {
+    display: flex;
+    gap: 44px;
+    align-items: center
+}
+
+#footer .footer-copyright {
+    font-size: 12px
+}
+
+#copy-navigation .footer-navigation-list>li a {
+    font-size: 12px
+}
+
+#footer .footer-contacts-title {
+    margin: 0 0 15px
+}
+
+#footer .footer-contacts a {
+    width: 100%;
+    display: block;
+    font-size: 14px;
+    font-family: var(--font-family-medium);
+    text-transform: capitalize;
+    text-align: center;
+    border-radius: 5px;
+    padding: 6px 30px
+}
+
+#footer .footer-contacts a span {
+    display: inline-block;
+    position: relative;
+    background-image: url(//sagahouses.com/wp-content/themes/woodme/assets/image/icon/arrow-long-right.svg);
+    background-size: 17px auto;
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+    padding: 0 34px 0 0;
+    color: #fff;
+}
+
 @media screen and (min-width: 600px) {
     .header__titles .custom-logo {
         max-width: calc(100vw / 11) !important;
@@ -302,6 +421,33 @@ body.page.has-sticky-header .entry-header {
         max-width: calc(100vw / 1.1) !important;
     }
 }
+@media (max-width: 999px) {
+    #footer {
+        height: auto
+    }
+
+    #footer .footer-inner {
+        display: block;
+        text-align: center;
+        padding: 40px 0
+    }
+
+    #footer .footer-navigation-list {
+        display: block
+    }
+
+    #footer .footer-navigation-list>li {
+        margin: 0 15px
+    }
+
+    #footer .footer-branding {
+        display: block
+    }
+
+    #footer .footer-contacts-title {
+        margin: 0 0 5px
+    }
+}
 @media screen and (max-width: 1460px) and (min-width: 1000px) {
     :root {
         --width-container: calc(100vw / 1.05);
@@ -310,6 +456,66 @@ body.page.has-sticky-header .entry-header {
         --margin-footer: calc(100vw / 14.4);
         --scrollbar-width: calc(100vw / 72);
         --home_slider-slide-width: calc(100vw / 19.2);
+    }
+
+    #footer .footer-inner {
+        padding: calc(100vw / 26.67) 0 calc(100vw / 28.8)
+    }
+
+    #footer .social-nav {
+        margin: calc(100vw / 96) 0
+    }
+
+    #footer .footer-navigation-list {
+        gap: calc(100vw / 32.73)
+    }
+
+    #footer-navigation .footer-navigation-list>li a {
+        font-size: calc(100vw / 72)
+    }
+
+    #social-navigation .footer-navigation-list>li a {
+        font-size: calc(100vw / 90);
+        padding: 0 0 0 calc(100vw / 60)
+    }
+
+    #social-navigation .footer-navigation-list>li.instagram a {
+        background-size: auto calc(100vw / 102.86)
+    }
+
+    #social-navigation .footer-navigation-list>li.youtube a {
+        background-size: auto calc(100vw / 120)
+    }
+
+    #social-navigation .footer-navigation-list>li.linkedin a {
+        background-size: auto calc(100vw / 102.86)
+    }
+
+    #footer .footer-branding {
+        gap: calc(100vw / 32.73)
+    }
+
+    #footer .footer-copyright {
+        font-size: calc(100vw / 120)
+    }
+
+    #copy-navigation .footer-navigation-list>li a {
+        font-size: calc(100vw / 120)
+    }
+
+    #footer .footer-contacts-title {
+        margin: 0 0 calc(100vw / 96) 0
+    }
+
+    #footer .footer-contacts a {
+        font-size: calc(100vw / 102.86);
+        border-radius: calc(100vw / 288);
+        padding: calc(100vw / 240) calc(100vw / 48)
+    }
+
+    #footer .footer-contacts a span {
+        background-size: calc(100vw / 84.71) auto;
+        padding: 0 calc(100vw / 42.35) 0 0
     }
 }
 @media screen and (min-width: 1921px) {
@@ -388,6 +594,68 @@ body.page.has-sticky-header .entry-header {
     .button a span {
         background-size: calc(100vw / 112.94) auto;
         padding: calc(100vw / 192) calc(100vw / 56.47) calc(100vw / 192) 0;
+    }
+
+    #footer .footer-inner {
+        padding: calc(100vw / 35.56) 0 calc(100vw / 38.4);
+        max-width: calc(100vw / 1.4);
+        width: 100%;
+    }
+
+    #footer .social-nav {
+        margin: calc(100vw / 128) 0
+    }
+
+    #footer .footer-navigation-list {
+        gap: calc(100vw / 43.64)
+    }
+
+    #footer-navigation .footer-navigation-list>li a {
+        font-size: calc(100vw / 96)
+    }
+
+    #social-navigation .footer-navigation-list>li a {
+        font-size: calc(100vw / 120);
+        padding: 0 0 0 calc(100vw / 80)
+    }
+
+    #social-navigation .footer-navigation-list>li.instagram a {
+        background-size: auto calc(100vw / 137.14)
+    }
+
+    #social-navigation .footer-navigation-list>li.youtube a {
+        background-size: auto calc(100vw / 160)
+    }
+
+    #social-navigation .footer-navigation-list>li.linkedin a {
+        background-size: auto calc(100vw / 137.14)
+    }
+
+    #footer .footer-branding {
+        gap: calc(100vw / 43.64)
+    }
+
+    #footer .footer-copyright {
+        font-size: calc(100vw / 160)
+    }
+
+    #copy-navigation .footer-navigation-list>li a {
+        font-size: calc(100vw / 160)
+    }
+
+    #footer .footer-contacts-title {
+        margin: 0 0 calc(100vw / 128) 0
+    }
+
+    #footer .footer-contacts a {
+        font-size: calc(100vw / 137.14);
+        border-radius: calc(100vw / 384);
+        padding: calc(100vw / 320) calc(100vw / 64)
+    }
+
+    #footer .footer-contacts a span {
+        background-size: calc(100vw / 112.94) auto;
+        padding: 0 calc(100vw / 56.47) 0 0
     }
 }
 
