@@ -413,8 +413,9 @@ body:not(.home) #footer {
 .partnership-column {
     background: #000;
     opacity: .7;
-    padding: calc(100vw / 90);
+    padding: calc(100vw / 50) !important;
 }
+
 @media screen and (min-width: 600px) {
     .header__titles .custom-logo {
         max-width: calc(100vw / 11) !important;
