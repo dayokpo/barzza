@@ -95,9 +95,11 @@ h3 {
     padding: 0;
     margin: auto;
 }
+
 .header__extras {
     display: none;
 }
+
 .header__inner #menu-barzza-menu {
     display: flex;
     justify-content: end;
@@ -441,8 +443,6 @@ body:not(.home) #footer {
 .standalone_slide input[type="radio"]{
     opacity: 1;
 }
-
-
 
 .crs-carousel-post-standalone {
     max-width: 100% !important;
