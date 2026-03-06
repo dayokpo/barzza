@@ -426,6 +426,7 @@ body:not(.home) #footer {
 
 .crs-slide {
     text-align: center;
+    padding: auto;
 }
 
 .crs-slide input[type="radio"] {
@@ -575,6 +576,16 @@ body:not(.home) #footer {
 
     .content-area.entry-content .wp-block-columns{
         max-width: calc(100vw / 1.4) !important;
+    }
+
+    .crs-carousel-post-standalone .slick-dots {
+        bottom: 0;
+        position: initial;
+    }
+
+    .crs-carousel-post-standalone .slick-dots li {
+        font-size: 11px;
+        padding: 3px;
     }
 }
 
