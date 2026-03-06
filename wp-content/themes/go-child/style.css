@@ -49,17 +49,17 @@ input[type=checkbox], input[type=radio] {
 }
 
 h1 {
-    font-size: calc(100vw / 34.29);
+    font-size: 24px;
 }
 
 h2 {
-    font-size: calc(100vw / 53.33);
+    font-size: 24px;
     /* line-height: calc(100vw / 200); */
     font-weight: bold;
 }
 
 h3 {
-    font-size: calc(100vw / 80);
+    font-size: 18px;
 }
 
 .alignfull {
@@ -268,7 +268,7 @@ body.page.has-sticky-header .entry-header {
 }
 
 .content-area.entry-content .wp-block-columns{
-    max-width: calc(100vw / 1.4) !important;
+    max-width: 100% !important;
 }
 
 .comments-area__wrapper {
@@ -410,9 +410,30 @@ body:not(.home) #footer {
     color: #fff;
 }
 
+.partnership-column {
+    background: #000;
+    opacity: .7;
+    padding: calc(100vw / 90);
+}
 @media screen and (min-width: 600px) {
     .header__titles .custom-logo {
         max-width: calc(100vw / 11) !important;
+    }
+
+    h1 {
+        font-size: calc(100vw / 34.29);
+    }
+
+    h2 {
+        font-size: calc(100vw / 53.33);
+    }
+
+    h3 {
+        font-size: calc(100vw / 80);
+    }
+
+    .content-area.entry-content .wp-block-columns{
+        max-width: calc(100vw / 1.4) !important;
     }
 }
 
@@ -531,6 +552,11 @@ body:not(.home) #footer {
         --scrollbar-width: calc(100vw / 96);
         --home_slider-slide-width: calc(100vw / 19.2);
     }
+
+    h1 {
+        font-size: calc(100vw / 34.29);
+    }
+
     .header__inner li.book_consultation {
         padding: calc(100vw / 480) 0;
     }
