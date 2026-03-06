@@ -457,12 +457,38 @@ body:not(.home) #footer {
 }
 
 .crs-carousel-post-standalone .slick-dots {
-    bottom: 0;
-    position: initial;
+    bottom: calc(100vw / 50);
 }
+
 .crs-carousel-post-standalone .slick-dots li {
-    font-size: 11px;
-    padding: 3px;
+    width: auto;
+    height: auto;
+    border-radius: calc(100vw / 96);
+    background: #fff;
+    font-size: calc(100vw / 150);
+    padding: calc(100vw / 400);
+    line-height: normal;
+}
+
+.crs-carousel-post-standalone .slick-dots li.slick-active {
+    background: #ac8f64;   
+}
+
+.crs-carousel-post-standalone .slick-dots li button {
+    font-size: var(--go-navigation--font-size);
+    line-height: var(--go-navigation--font-size);
+    width: 100%;
+    height: 100%;
+    color: #000;
+    padding: calc(100vw / 400);
+}
+
+.crs-carousel-post-standalone .slick-dots li.slick-active button{
+    color: #fff; 
+}
+
+.crs-carousel-post-standalone .slick-dots li button::before{
+    content: none !important;
 }
 
 .alignfull.standalone_excerpt {
@@ -587,38 +613,12 @@ body:not(.home) #footer {
     }
 
     .crs-carousel-post-standalone .slick-dots {
-        bottom: calc(100vw / 50);
+        bottom: 0;
+        position: initial;
     }
-
     .crs-carousel-post-standalone .slick-dots li {
-        width: auto;
-        height: auto;
-        border-radius: calc(100vw / 96);
-        background: #fff;
-        font-size: calc(100vw / 150);
-        padding: calc(100vw / 400);
-        line-height: normal;
-    }
-
-    .crs-carousel-post-standalone .slick-dots li.slick-active {
-        background: #ac8f64;   
-    }
-
-    .crs-carousel-post-standalone .slick-dots li button {
-        font-size: var(--go-navigation--font-size);
-        line-height: var(--go-navigation--font-size);
-        width: 100%;
-        height: 100%;
-        color: #000;
-        padding: calc(100vw / 400);
-    }
-
-    .crs-carousel-post-standalone .slick-dots li.slick-active button{
-        color: #fff; 
-    }
-
-    .crs-carousel-post-standalone .slick-dots li button::before{
-        content: none !important;
+        font-size: 11px;
+        padding: 3px;
     }
 }
 @media screen and (max-width: 1460px) and (min-width: 1000px) {
