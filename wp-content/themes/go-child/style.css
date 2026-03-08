@@ -63,8 +63,14 @@ h3 {
 }
 
 .alignfull {
-    margin-bottom: calc(100vw / 30);
-    margin-top: calc(100vw / 30);
+    margin-bottom: calc(100vw / 70);
+    margin-top: calc(100vw / 70);
+}
+
+figure.wp-block-video.alignfull.remove-video-bars {
+    margin-bottom: calc(100vw / 90);
+    margin-top: calc(100vw / 90);
+
 }
 
 .innerblocks-wrap {
@@ -281,6 +287,7 @@ body.page.has-sticky-header .entry-header {
 
 .content-area.entry-content p {
     max-width: 100% !important;
+    margin: revert;
 }
 
 .barzza-tabs-content .alignfull.standalone_excerpt .button {
@@ -294,6 +301,25 @@ body.page.has-sticky-header .entry-header {
 .b2 {
     color: #fff;
     background-color: #ac8f64;
+}
+
+figure.wp-block-video.alignfull::before {
+    content: '';
+    height: calc(100vw / 24);
+    display: block;
+    background: #f7f8f8;
+    width: 100%;
+    position: absolute;
+}
+
+figure.wp-block-video.alignfull::after {
+    content: '';
+    height: calc(100vw / 24);
+    display: block;
+    background: #f7f8f8;
+    width: 100%;
+    position: absolute;
+    bottom: -10px;
 }
 
 #footer {
@@ -691,6 +717,24 @@ body:not(.home) #footer {
         background-size: calc(100vw / 84.71) auto;
         padding: 0 calc(100vw / 42.35) 0 0
     }
+    
+    .modular-method .wp-block-column p {
+        height: calc(100vw / 5);
+    }
+
+    .modular-method .wp-block-column h3 {
+        height: 80px;
+    }
+}
+
+@media screen and (max-width: 1920px) and (min-width: 1461px) {
+    .modular-method .wp-block-column h3 {
+        height: 50px;
+    }
+
+    .modular-method .wp-block-column p {
+        height: 100px;
+    }
 }
 @media screen and (min-width: 1921px) {
     body {        
@@ -718,6 +762,14 @@ body:not(.home) #footer {
         font-size: calc(100vw / 80);
     }
 
+    figure.wp-block-video.alignfull::before {
+        height: calc(100vw / 30);
+    }
+
+    figure.wp-block-video.alignfull::after {
+        height: calc(100vw / 30);
+    }
+
     .header__inner li.book_consultation {
         padding: calc(100vw / 480) 0;
     }
@@ -743,6 +795,10 @@ body:not(.home) #footer {
     .number span:after {
         width: calc(100% - calc(100vw / 33.1));
         height: calc(100vw / 1920);
+    }
+
+    .modular-method .wp-block-column p {
+        height: calc(100vw / 20);
     }
 
     /* .standalone-step .wp-block-cover__inner-container {
