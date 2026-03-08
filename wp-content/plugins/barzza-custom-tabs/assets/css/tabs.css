@@ -39,9 +39,9 @@ padding: calc(100vw / 250) calc(100vw / 128);
 	outline: none;
 }
 
-.barzza-tabs-content {
+/* .barzza-tabs-content {
 	height: calc(100vw / 3);
-}
+} */
 
 .barzza-tab-content {
 	display: none;
@@ -97,30 +97,4 @@ padding: calc(100vw / 250) calc(100vw / 128);
 
 .gallery-slider-display-none {
     display: none !important;
-}
-
-/* Description responsive display: full text on desktop, trimmed on mobile/tablet */
-/* Desktop (>1024px): show full description */
-@media (min-width: 1025px) {
-	.barzza-description-excerpt {
-		display: none;
-	}
-	.barzza-description-full {
-		display: inline;
-	}
-}
-
-/* Mobile/Tablet (≤1024px): show trimmed description with See more link */
-@media (max-width: 1024px) {
-	.barzza-description-full {
-		display: none;
-	}
-	.barzza-description-excerpt {
-		display: inline;
-	}
-	.barzza-see-more {
-		font-weight: 500;
-		text-decoration: underline;
-		margin-left: 0.25em;
-	}
 }

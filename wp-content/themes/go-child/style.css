@@ -68,8 +68,8 @@ h3 {
 }
 
 figure.wp-block-video.alignfull.remove-video-bars {
-    margin-bottom: calc(100vw / 90);
-    margin-top: calc(100vw / 90);
+    margin-bottom: 0;
+    margin-top: 0;
 
 }
 
@@ -275,6 +275,11 @@ body.page.has-sticky-header .entry-header {
 
 .content-area.entry-content .wp-block-columns{
     max-width: 100% !important;
+    margin-bottom: 0;
+}
+
+.content-area.entry-content .wp-block-columns .wp-block-column:last-child {
+    margin: auto;
 }
 
 .comments-area__wrapper {
@@ -294,9 +299,9 @@ body.page.has-sticky-header .entry-header {
     margin: calc(100vw / 100) !important;
 }
 
-.barzza-tabs-content {
+/* .barzza-tabs-content {
 	height: calc(100vw / 3);
-}
+} */
 
 .b2 {
     color: #fff;
@@ -656,6 +661,10 @@ body:not(.home) #footer {
         --margin-footer: calc(100vw / 14.4);
         --scrollbar-width: calc(100vw / 72);
         --home_slider-slide-width: calc(100vw / 19.2);
+    }
+
+    .header__navigation a {
+        font-size: 12px;
     }
 
     #footer .footer-inner {
