@@ -26,9 +26,8 @@ $has_background = Go\has_footer_background();
                                                             <div class="social-nav">
                                     <nav id="social-navigation" aria-label="Social Menu">
                                         <ul class="footer-navigation-list">
-                                            <li id="menu-item-30" class="instagram menu-item menu-item-type-custom menu-item-object-custom menu-item-30"><a target="_blank" href="https://www.instagram.com/saga.houses"><span>Instagram</span></a></li>
-<li id="menu-item-31" class="youtube menu-item menu-item-type-custom menu-item-object-custom menu-item-31"><a target="_blank" href="https://www.youtube.com/@SAGAHouses"><span>YouTube</span></a></li>
-<li id="menu-item-32" class="linkedin menu-item menu-item-type-custom menu-item-object-custom menu-item-32"><a target="_blank" href="https://www.linkedin.com/company/sagahouses"><span>LinkedIn</span></a></li>
+                                            <li id="menu-item-30" class="instagram menu-item menu-item-type-custom menu-item-object-custom menu-item-30"><a target="_blank" href="https://www.instagram.com/barzza.uae"><span>Instagram</span></a></li>
+                                            <li id="menu-item-31" class="facebook menu-item menu-item-type-custom menu-item-object-custom menu-item-31"><a target="_blank" href="https://www.facebook.com/profile.php?id=61579398868015"><span>Facebook</span></a></li>
                                         </ul>
                                     </nav>
                                 </div>
