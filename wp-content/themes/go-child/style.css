@@ -557,7 +557,7 @@ body:not(.home) #footer {
     font-weight: 100;
 }
 
-.content .price .price-data span:first-child, .content .area .area-data span:first-child {
+.content .price .price-data span:last-child, .content .area .area-data span:first-child {
     font-size: calc(100vw / 75);
     font-weight: 400;
 }
