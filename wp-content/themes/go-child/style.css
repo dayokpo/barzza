@@ -622,8 +622,8 @@ body:not(.home) #footer {
     }
 
     .partnership-column {
-        width: 50%;
-        max-width: 100% !important;
+        width: 100%;
+        max-width: 50% !important;
     }
 }
 
