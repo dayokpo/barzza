@@ -13,12 +13,12 @@
 }
 
 .barzza-tab-button {
-padding: calc(100vw / 250) calc(100vw / 128);
+	padding: 5px;
     background-color: #f5f5f5;
     border: 1px solid;
     border-radius: calc(100vw / 50);
     cursor: pointer;
-    font-size: calc(100vw / 150);
+    font-size: 11px;
     font-weight: 500;
     color: #333;
     transition: all 0.3s ease;

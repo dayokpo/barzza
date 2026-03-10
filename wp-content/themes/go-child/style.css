@@ -537,8 +537,8 @@ body:not(.home) #footer {
 }
 
 .alignfull.standalone_excerpt h3{
-    margin: calc(100vw / 40) calc(100vw / 100) calc(100vw / 100) !important;
-    font-size: calc(100vw / 50);
+    margin: 10px !important;
+    font-size: 24px;
 }
 
 .content {
@@ -558,7 +558,7 @@ body:not(.home) #footer {
 }
 
 .content .price .price-data span:last-child, .content .area .area-data span:first-child {
-    font-size: calc(100vw / 75);
+    font-size: 24px;
     font-weight: 400;
 }
 
@@ -567,13 +567,13 @@ body:not(.home) #footer {
 }
 
 .barzza-post-tags a {
-    padding: calc(100vw / 250) calc(100vw / 128);
-    margin: calc(100vw / 400);
+    padding: 5px;
+    margin: 3px;
     background-color: #f5f5f5;
     border: 1px solid;
     border-radius: calc(100vw / 50);
     cursor: pointer;
-    font-size: calc(100vw / 150);
+    font-size: 11px;
     font-weight: 500;
     color: #ac8f64;
     transition: all 0.3s ease;
@@ -617,6 +617,27 @@ body:not(.home) #footer {
     .partnership-column {
         width: 100%;
         max-width: 50% !important;
+    }
+
+    .alignfull.standalone_excerpt h3{
+        margin: calc(100vw / 40) calc(100vw / 100) calc(100vw / 100) !important;
+        font-size: calc(100vw / 50);
+    }
+
+    .barzza-post-tags a {
+        padding: calc(100vw / 250) calc(100vw / 128);
+        margin: calc(100vw / 400);
+        font-size: calc(100vw / 150);
+    }
+    
+    .content .price .price-data span:last-child, .content .area .area-data span:first-child {
+        font-size: calc(100vw / 75);
+        font-weight: 400;
+    }
+
+    .barzza-tab-button {
+        padding: calc(100vw / 250) calc(100vw / 128);
+        font-size: calc(100vw / 150);
     }
 }
 
