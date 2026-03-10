@@ -614,9 +614,7 @@ body:not(.home) #footer {
         max-width: calc(100vw / 1.4) !important;
     }
 
-    .partnership-section .wp-block-cover .wp-block-cover__inner-container,
-    .partnership-section .wp-block-cover-image .wp-block-cover__inner-container,
-    .partnership-section .content-area.entry-content .wp-block-columns {
+    .partnership-section .wp-block-cover .wp-block-cover__inner-container {
         max-width: 50% !important;
         width: 100%;
     }
