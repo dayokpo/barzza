@@ -91,6 +91,11 @@ figure.wp-block-video.alignfull.remove-video-bars {
     width: 100%;
 }
 
+.partnership-column {
+    width: 100%;
+    max-width: 100% !important;
+}
+
 .partnership-section .innerblocks-wrap p {
     color: #fff;
 }
@@ -607,6 +612,18 @@ body:not(.home) #footer {
 
     .content-area.entry-content .wp-block-columns{
         max-width: calc(100vw / 1.4) !important;
+    }
+
+    .partnership-section .wp-block-cover .wp-block-cover__inner-container,
+    .partnership-section .wp-block-cover-image .wp-block-cover__inner-container,
+    .partnership-section .content-area.entry-content .wp-block-columns {
+        max-width: 50% !important;
+        width: 100%;
+    }
+
+    .partnership-column {
+        width: 50%;
+        max-width: 100% !important;
     }
 }
 
