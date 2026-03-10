@@ -614,11 +614,6 @@ body:not(.home) #footer {
         max-width: calc(100vw / 1.4) !important;
     }
 
-    .partnership-section .wp-block-cover .wp-block-cover__inner-container {
-        max-width: 50% !important;
-        width: 100%;
-    }
-
     .partnership-column {
         width: 100%;
         max-width: 50% !important;
