@@ -1,0 +1,342 @@
+0000.009 () Opened log file at time: Mon, 02 Nov 2026 16:29:06 +0000 on http://localhost:8080
+0000.009 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.26.14 WP: 6.9 PHP: 8.3.29 (apache2handler, Linux b793c720dbb5 6.6.87.2-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:30:46 UTC 2025 x86_64) MySQL: 12.1.2-MariaDB-ubu2404 (max packet size=33554432) WPLANG: en_US Server: Apache/2.4.65 (Debian) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 7.2M | 8M) multisite: N openssl: OpenSSL 3.5.4 30 Sep 2025 mcrypt: N LANG: C WP Proxy: disabled ZipArchive::addFile: Y
+0000.010 () Free space on disk containing Updraft's temporary directory: 152314.2 MB
+0000.106 () Restore setup, now closing connection and starting restore over AJAX.
+0000.013 () Opened log file at time: Mon, 02 Nov 2026 16:29:10 +0000 on http://localhost:8080
+0000.014 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.26.14 WP: 6.9 PHP: 8.3.29 (apache2handler, Linux b793c720dbb5 6.6.87.2-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:30:46 UTC 2025 x86_64) MySQL: 12.1.2-MariaDB-ubu2404 (max packet size=33554432) WPLANG: en_US Server: Apache/2.4.65 (Debian) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 6.1M | 8M) multisite: N openssl: OpenSSL 3.5.4 30 Sep 2025 mcrypt: N LANG: C WP Proxy: disabled ZipArchive::addFile: Y
+0000.015 () Free space on disk containing Updraft's temporary directory: 152312.2 MB
+0000.080 () Ensuring WP_Filesystem is setup for a restore
+0000.090 () WP_Filesystem is setup and ready for a restore
+0000.099 () Restore job started. Entities to restore: db. Restore options: {"updraft_restorer_collate":"choose_a_default_for_each_table","updraft_restorer_replacesiteurl":"1","include_unspecified_tables":false,"tables_to_restore":["wp_options","wp_users","wp_usermeta","wp_actionscheduler_actions","wp_actionscheduler_claims","wp_actionscheduler_groups","wp_actionscheduler_logs","wp_commentmeta","wp_comments","wp_links","wp_postmeta","wp_posts","wp_term_relationships","wp_term_taxonomy","wp_termmeta","wp_terms","wp_bwg_album","wp_bwg_album_gallery","wp_bwg_file_paths","wp_bwg_gallery","wp_bwg_image","wp_bwg_image_comment","wp_bwg_image_rate","wp_bwg_image_tag","wp_bwg_shortcode","wp_bwg_theme","wp_cf7_inquiries","wp_frm_fields","wp_frm_forms","wp_frm_item_metas","wp_frm_items","wp_hostinger_reach_carts","wp_hostinger_reach_contact_lists","wp_hostinger_reach_forms","wp_litespeed_url","wp_litespeed_url_file","wp_nextend2_image_storage","wp_nextend2_section_storage","wp_nextend2_smartslider3_generators","wp_nextend2_smartslider3_sliders","wp_nextend2_smartslider3_sliders_xref","wp_nextend2_smartslider3_slides","wp_tfhb_attendees","wp_tfhb_availability","wp_tfhb_booking_meta","wp_tfhb_bookings","wp_tfhb_hosts","wp_tfhb_meetings","wp_tfhb_meta","wp_tfhb_transactions","wp_uacf7_form","wp_uacf7dp_data","wp_uacf7dp_data_entry","wp_wpforms_logs","wp_wpforms_payment_meta","wp_wpforms_payments","wp_wpforms_tasks_meta"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.128 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.135 () Entity: db
+0000.135 () restore_backup(backup_file=backup_2026-11-02-1543_Barzza_c59320ef2f30-db.gz, type=db, info=a:0:{}, last_one=1)
+0000.139 () Unpacking backup... (backup_2026-11-02-1543_Barzza_c59320ef2f30-db.gz, 0.5 Mb)
+0000.172 () Database successfully unpacked
+0000.175 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.179 () Using direct MySQL access; value of use_mysqli is: 1
+0000.180 () SQL compatibility mode is now: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.237 () Max packet size: 32 MB
+0000.238 () Entering maintenance mode
+0000.238 () Enabling Maintenance mode&#8230;
+0000.286 () Backup of: https://barzza.ae
+0000.310 () Content URL: https://barzza.ae/wp-content
+0000.311 () Uploads URL: https://barzza.ae/wp-content/uploads
+0000.312 () Old table prefix: wp_
+0000.312 () Old ABSPATH: /home/u468547074/domains/barzza.ae/public_html/
+0000.313 () UpdraftPlus plugin slug: updraftplus/updraftplus.php
+0000.314 () Site information: multisite=0
+0000.315 () Site information: sql_mode=NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.317 () Skipped execution of SQL statement (unwanted or internally handled type=18): /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+0000.319 () New table prefix: vh_
+0000.331 () Processing table (InnoDB): wp_options - will restore as: vh_options
+0000.566 () Atomic restore: dropping original table (wp_options)
+0000.576 () Atomic restore: renaming new table (vh_options) to final table name (wp_options)
+0000.586 () Restoring prior UD configuration (table: wp_options; keys: 103)
+0001.030 () Search and replacing table: wp_options: rows: 668
+0001.135 () Processing table (InnoDB): wp_users - will restore as: vh_users
+0001.171 () Atomic restore: dropping original table (wp_users)
+0001.180 () Atomic restore: renaming new table (vh_users) to final table name (wp_users)
+0001.191 () Search and replacing table: wp_users: rows: 3
+0001.194 () Processing table (InnoDB): wp_usermeta - will restore as: vh_usermeta
+0001.226 () Atomic restore: dropping original table (wp_usermeta)
+0001.232 () Atomic restore: renaming new table (vh_usermeta) to final table name (wp_usermeta)
+0001.242 () Search and replacing table: wp_usermeta: rows: 68
+0001.243 () Processing table (InnoDB): wp_actionscheduler_actions - will restore as: vh_actionscheduler_actions
+0001.305 () Atomic restore: dropping original table (wp_actionscheduler_actions)
+0001.316 () Atomic restore: renaming new table (vh_actionscheduler_actions) to final table name (wp_actionscheduler_actions)
+0001.326 () Search and replacing table: wp_actionscheduler_actions: rows: 64
+0001.328 () Processing table (InnoDB): wp_actionscheduler_claims - will restore as: vh_actionscheduler_claims
+0001.350 () Atomic restore: dropping original table (wp_actionscheduler_claims)
+0001.358 () Atomic restore: renaming new table (vh_actionscheduler_claims) to final table name (wp_actionscheduler_claims)
+0001.367 () Search and replacing table: wp_actionscheduler_claims: rows: 0
+0001.368 () Processing table (InnoDB): wp_actionscheduler_groups - will restore as: vh_actionscheduler_groups
+0001.392 () Atomic restore: dropping original table (wp_actionscheduler_groups)
+0001.400 () Atomic restore: renaming new table (vh_actionscheduler_groups) to final table name (wp_actionscheduler_groups)
+0001.411 () Search and replacing table: wp_actionscheduler_groups: rows: 3
+0001.412 () Processing table (InnoDB): wp_actionscheduler_logs - will restore as: vh_actionscheduler_logs
+0001.444 () Atomic restore: dropping original table (wp_actionscheduler_logs)
+0001.452 () Atomic restore: renaming new table (vh_actionscheduler_logs) to final table name (wp_actionscheduler_logs)
+0001.462 () Search and replacing table: wp_actionscheduler_logs: rows: 188
+0001.464 () Processing table (InnoDB): wp_commentmeta - will restore as: vh_commentmeta
+0001.489 () Atomic restore: dropping original table (wp_commentmeta)
+0001.499 () Atomic restore: renaming new table (vh_commentmeta) to final table name (wp_commentmeta)
+0001.508 () Search and replacing table: wp_commentmeta: rows: 0
+0001.508 () Processing table (InnoDB): wp_comments - will restore as: vh_comments
+0001.545 () Atomic restore: dropping original table (wp_comments)
+0001.553 () Atomic restore: renaming new table (vh_comments) to final table name (wp_comments)
+0001.564 () Search and replacing table: wp_comments: rows: 1
+0001.565 () Processing table (InnoDB): wp_links - will restore as: vh_links
+0001.587 () Atomic restore: dropping original table (wp_links)
+0001.595 () Atomic restore: renaming new table (vh_links) to final table name (wp_links)
+0001.606 () Search and replacing table: wp_links: rows: 0
+0001.606 () Processing table (InnoDB): wp_postmeta - will restore as: vh_postmeta
+0001.815 () Atomic restore: dropping original table (wp_postmeta)
+0001.822 () Atomic restore: renaming new table (vh_postmeta) to final table name (wp_postmeta)
+0001.838 () Search and replacing table: wp_postmeta: rows: 14
+0001.858 () Processing table (InnoDB): wp_posts - will restore as: vh_posts
+0002.386 () Atomic restore: dropping original table (wp_posts)
+0002.394 () Database queries processed: 50 in 2.21 seconds
+0002.394 () Atomic restore: renaming new table (vh_posts) to final table name (wp_posts)
+0002.403 () Skipping search/replace on GUID column in posts table
+0002.404 () Search and replacing table: wp_posts: rows: 762
+0003.188 () Processing table (InnoDB): wp_term_relationships - will restore as: vh_term_relationships
+0003.214 () Atomic restore: dropping original table (wp_term_relationships)
+0003.220 () Atomic restore: renaming new table (vh_term_relationships) to final table name (wp_term_relationships)
+0003.228 () Skipping this table: data in this table (wp_term_relationships) should not be search/replaced
+0003.229 () Processing table (InnoDB): wp_term_taxonomy - will restore as: vh_term_taxonomy
+0003.255 () Atomic restore: dropping original table (wp_term_taxonomy)
+0003.263 () Atomic restore: renaming new table (vh_term_taxonomy) to final table name (wp_term_taxonomy)
+0003.273 () Search and replacing table: wp_term_taxonomy: rows: 16
+0003.273 () Processing table (InnoDB): wp_termmeta - will restore as: vh_termmeta
+0003.296 () Atomic restore: dropping original table (wp_termmeta)
+0003.304 () Atomic restore: renaming new table (vh_termmeta) to final table name (wp_termmeta)
+0003.314 () Search and replacing table: wp_termmeta: rows: 0
+0003.314 () Processing table (InnoDB): wp_terms - will restore as: vh_terms
+0003.339 () Atomic restore: dropping original table (wp_terms)
+0003.346 () Atomic restore: renaming new table (vh_terms) to final table name (wp_terms)
+0003.355 () Search and replacing table: wp_terms: rows: 16
+0003.356 () Processing table (InnoDB): wp_bwg_album - will restore as: vh_bwg_album
+0003.377 () Atomic restore: dropping original table (wp_bwg_album)
+0003.385 () Atomic restore: renaming new table (vh_bwg_album) to final table name (wp_bwg_album)
+0003.393 () Search and replacing table: wp_bwg_album: rows: 0
+0003.394 () Processing table (InnoDB): wp_bwg_album_gallery - will restore as: vh_bwg_album_gallery
+0003.413 () Atomic restore: dropping original table (wp_bwg_album_gallery)
+0003.421 () Atomic restore: renaming new table (vh_bwg_album_gallery) to final table name (wp_bwg_album_gallery)
+0003.429 () Search and replacing table: wp_bwg_album_gallery: rows: 0
+0003.429 () Processing table (InnoDB): wp_bwg_file_paths - will restore as: vh_bwg_file_paths
+0003.449 () Atomic restore: dropping original table (wp_bwg_file_paths)
+0003.458 () Atomic restore: renaming new table (vh_bwg_file_paths) to final table name (wp_bwg_file_paths)
+0003.468 () Search and replacing table: wp_bwg_file_paths: rows: 1
+0003.469 () Processing table (InnoDB): wp_bwg_gallery - will restore as: vh_bwg_gallery
+0003.488 () Atomic restore: dropping original table (wp_bwg_gallery)
+0003.495 () Atomic restore: renaming new table (vh_bwg_gallery) to final table name (wp_bwg_gallery)
+0003.505 () Search and replacing table: wp_bwg_gallery: rows: 1
+0003.506 () Processing table (InnoDB): wp_bwg_image - will restore as: vh_bwg_image
+0003.529 () Atomic restore: dropping original table (wp_bwg_image)
+0003.536 () Atomic restore: renaming new table (vh_bwg_image) to final table name (wp_bwg_image)
+0003.544 () Search and replacing table: wp_bwg_image: rows: 2
+0003.545 () Processing table (InnoDB): wp_bwg_image_comment - will restore as: vh_bwg_image_comment
+0003.564 () Atomic restore: dropping original table (wp_bwg_image_comment)
+0003.572 () Atomic restore: renaming new table (vh_bwg_image_comment) to final table name (wp_bwg_image_comment)
+0003.580 () Search and replacing table: wp_bwg_image_comment: rows: 0
+0003.581 () Processing table (InnoDB): wp_bwg_image_rate - will restore as: vh_bwg_image_rate
+0003.598 () Atomic restore: dropping original table (wp_bwg_image_rate)
+0003.604 () Atomic restore: renaming new table (vh_bwg_image_rate) to final table name (wp_bwg_image_rate)
+0003.613 () Search and replacing table: wp_bwg_image_rate: rows: 0
+0003.614 () Processing table (InnoDB): wp_bwg_image_tag - will restore as: vh_bwg_image_tag
+0003.631 () Atomic restore: dropping original table (wp_bwg_image_tag)
+0003.638 () Atomic restore: renaming new table (vh_bwg_image_tag) to final table name (wp_bwg_image_tag)
+0003.646 () Search and replacing table: wp_bwg_image_tag: rows: 0
+0003.646 () Processing table (InnoDB): wp_bwg_shortcode - will restore as: vh_bwg_shortcode
+0003.666 () Atomic restore: dropping original table (wp_bwg_shortcode)
+0003.674 () Atomic restore: renaming new table (vh_bwg_shortcode) to final table name (wp_bwg_shortcode)
+0003.682 () Search and replacing table: wp_bwg_shortcode: rows: 3
+0003.682 () Processing table (InnoDB): wp_bwg_theme - will restore as: vh_bwg_theme
+0003.714 () Atomic restore: dropping original table (wp_bwg_theme)
+0003.721 () Atomic restore: renaming new table (vh_bwg_theme) to final table name (wp_bwg_theme)
+0003.728 () Search and replacing table: wp_bwg_theme: rows: 2
+0003.730 () Processing table (InnoDB): wp_cf7_inquiries - will restore as: vh_cf7_inquiries
+0003.752 () Atomic restore: dropping original table (wp_cf7_inquiries)
+0003.759 () Atomic restore: renaming new table (vh_cf7_inquiries) to final table name (wp_cf7_inquiries)
+0003.769 () Search and replacing table: wp_cf7_inquiries: rows: 0
+0003.769 () Processing table (InnoDB): wp_frm_fields - will restore as: vh_frm_fields
+0003.796 () Atomic restore: dropping original table (wp_frm_fields)
+0003.804 () Atomic restore: renaming new table (vh_frm_fields) to final table name (wp_frm_fields)
+0003.814 () Search and replacing table: wp_frm_fields: rows: 5
+0003.814 () Processing table (InnoDB): wp_frm_forms - will restore as: vh_frm_forms
+0003.835 () Atomic restore: dropping original table (wp_frm_forms)
+0003.842 () Atomic restore: renaming new table (vh_frm_forms) to final table name (wp_frm_forms)
+0003.851 () Search and replacing table: wp_frm_forms: rows: 1
+0003.852 () Processing table (InnoDB): wp_frm_item_metas - will restore as: vh_frm_item_metas
+0003.877 () Atomic restore: dropping original table (wp_frm_item_metas)
+0003.884 () Atomic restore: renaming new table (vh_frm_item_metas) to final table name (wp_frm_item_metas)
+0003.895 () Search and replacing table: wp_frm_item_metas: rows: 0
+0003.895 () Processing table (InnoDB): wp_frm_items - will restore as: vh_frm_items
+0003.929 () Atomic restore: dropping original table (wp_frm_items)
+0003.937 () Atomic restore: renaming new table (vh_frm_items) to final table name (wp_frm_items)
+0003.947 () Search and replacing table: wp_frm_items: rows: 0
+0003.948 () Processing table (InnoDB): wp_hostinger_reach_carts - will restore as: vh_hostinger_reach_carts
+0003.970 () Atomic restore: dropping original table (wp_hostinger_reach_carts)
+0003.975 () Database queries processed: 100 in 3.79 seconds
+0003.976 () Atomic restore: renaming new table (vh_hostinger_reach_carts) to final table name (wp_hostinger_reach_carts)
+0003.985 () Search and replacing table: wp_hostinger_reach_carts: rows: 0
+0003.985 () Processing table (InnoDB): wp_hostinger_reach_contact_lists - will restore as: vh_hostinger_reach_contact_lists
+0004.006 () Atomic restore: dropping original table (wp_hostinger_reach_contact_lists)
+0004.011 () Atomic restore: renaming new table (vh_hostinger_reach_contact_lists) to final table name (wp_hostinger_reach_contact_lists)
+0004.021 () Search and replacing table: wp_hostinger_reach_contact_lists: rows: 0
+0004.021 () Processing table (InnoDB): wp_hostinger_reach_forms - will restore as: vh_hostinger_reach_forms
+0004.044 () Atomic restore: dropping original table (wp_hostinger_reach_forms)
+0004.049 () Atomic restore: renaming new table (vh_hostinger_reach_forms) to final table name (wp_hostinger_reach_forms)
+0004.058 () Search and replacing table: wp_hostinger_reach_forms: rows: 0
+0004.058 () Processing table (InnoDB): wp_litespeed_url - will restore as: vh_litespeed_url
+0004.080 () Atomic restore: dropping original table (wp_litespeed_url)
+0004.086 () Atomic restore: renaming new table (vh_litespeed_url) to final table name (wp_litespeed_url)
+0004.095 () Search and replacing table: wp_litespeed_url: rows: 0
+0004.095 () Processing table (InnoDB): wp_litespeed_url_file - will restore as: vh_litespeed_url_file
+0004.127 () Atomic restore: dropping original table (wp_litespeed_url_file)
+0004.133 () Atomic restore: renaming new table (vh_litespeed_url_file) to final table name (wp_litespeed_url_file)
+0004.143 () Search and replacing table: wp_litespeed_url_file: rows: 0
+0004.144 () Processing table (InnoDB): wp_nextend2_image_storage - will restore as: vh_nextend2_image_storage
+0004.167 () Atomic restore: dropping original table (wp_nextend2_image_storage)
+0004.175 () Atomic restore: renaming new table (vh_nextend2_image_storage) to final table name (wp_nextend2_image_storage)
+0004.187 () Search and replacing table: wp_nextend2_image_storage: rows: 3
+0004.188 () Processing table (InnoDB): wp_nextend2_section_storage - will restore as: vh_nextend2_section_storage
+0004.219 () Atomic restore: dropping original table (wp_nextend2_section_storage)
+0004.227 () Atomic restore: renaming new table (vh_nextend2_section_storage) to final table name (wp_nextend2_section_storage)
+0004.238 () Search and replacing table: wp_nextend2_section_storage: rows: 3
+0004.239 () Processing table (InnoDB): wp_nextend2_smartslider3_generators - will restore as: vh_nextend2_smartslider3_generators
+0004.258 () Atomic restore: dropping original table (wp_nextend2_smartslider3_generators)
+0004.266 () Atomic restore: renaming new table (vh_nextend2_smartslider3_generators) to final table name (wp_nextend2_smartslider3_generators)
+0004.274 () Search and replacing table: wp_nextend2_smartslider3_generators: rows: 0
+0004.274 () Processing table (InnoDB): wp_nextend2_smartslider3_sliders - will restore as: vh_nextend2_smartslider3_sliders
+0004.317 () Atomic restore: dropping original table (wp_nextend2_smartslider3_sliders)
+0004.326 () Atomic restore: renaming new table (vh_nextend2_smartslider3_sliders) to final table name (wp_nextend2_smartslider3_sliders)
+0004.335 () Search and replacing table: wp_nextend2_smartslider3_sliders: rows: 2
+0004.348 () Processing table (InnoDB): wp_nextend2_smartslider3_sliders_xref - will restore as: vh_nextend2_smartslider3_sliders_xref
+0004.371 () Atomic restore: dropping original table (wp_nextend2_smartslider3_sliders_xref)
+0004.379 () Atomic restore: renaming new table (vh_nextend2_smartslider3_sliders_xref) to final table name (wp_nextend2_smartslider3_sliders_xref)
+0004.389 () Search and replacing table: wp_nextend2_smartslider3_sliders_xref: rows: 1
+0004.390 () Processing table (InnoDB): wp_nextend2_smartslider3_slides - will restore as: vh_nextend2_smartslider3_slides
+0004.441 () Atomic restore: dropping original table (wp_nextend2_smartslider3_slides)
+0004.448 () Atomic restore: renaming new table (vh_nextend2_smartslider3_slides) to final table name (wp_nextend2_smartslider3_slides)
+0004.459 () Search and replacing table: wp_nextend2_smartslider3_slides: rows: 5
+0004.479 () Processing table (InnoDB): wp_tfhb_attendees - will restore as: vh_tfhb_attendees
+0004.501 () Atomic restore: dropping original table (wp_tfhb_attendees)
+0004.509 () Atomic restore: renaming new table (vh_tfhb_attendees) to final table name (wp_tfhb_attendees)
+0004.517 () Search and replacing table: wp_tfhb_attendees: rows: 0
+0004.517 () Processing table (InnoDB): wp_tfhb_availability - will restore as: vh_tfhb_availability
+0004.535 () Atomic restore: dropping original table (wp_tfhb_availability)
+0004.543 () Atomic restore: renaming new table (vh_tfhb_availability) to final table name (wp_tfhb_availability)
+0004.551 () Search and replacing table: wp_tfhb_availability: rows: 0
+0004.551 () Processing table (InnoDB): wp_tfhb_booking_meta - will restore as: vh_tfhb_booking_meta
+0004.571 () Atomic restore: dropping original table (wp_tfhb_booking_meta)
+0004.579 () Atomic restore: renaming new table (vh_tfhb_booking_meta) to final table name (wp_tfhb_booking_meta)
+0004.589 () Search and replacing table: wp_tfhb_booking_meta: rows: 0
+0004.589 () Processing table (InnoDB): wp_tfhb_bookings - will restore as: vh_tfhb_bookings
+0004.608 () Atomic restore: dropping original table (wp_tfhb_bookings)
+0004.616 () Atomic restore: renaming new table (vh_tfhb_bookings) to final table name (wp_tfhb_bookings)
+0004.625 () Search and replacing table: wp_tfhb_bookings: rows: 0
+0004.626 () Processing table (InnoDB): wp_tfhb_hosts - will restore as: vh_tfhb_hosts
+0004.645 () Atomic restore: dropping original table (wp_tfhb_hosts)
+0004.653 () Atomic restore: renaming new table (vh_tfhb_hosts) to final table name (wp_tfhb_hosts)
+0004.662 () Search and replacing table: wp_tfhb_hosts: rows: 0
+0004.662 () Processing table (InnoDB): wp_tfhb_meetings - will restore as: vh_tfhb_meetings
+0004.682 () Atomic restore: dropping original table (wp_tfhb_meetings)
+0004.690 () Atomic restore: renaming new table (vh_tfhb_meetings) to final table name (wp_tfhb_meetings)
+0004.700 () Search and replacing table: wp_tfhb_meetings: rows: 0
+0004.701 () Processing table (InnoDB): wp_tfhb_meta - will restore as: vh_tfhb_meta
+0004.719 () Atomic restore: dropping original table (wp_tfhb_meta)
+0004.725 () Atomic restore: renaming new table (vh_tfhb_meta) to final table name (wp_tfhb_meta)
+0004.736 () Search and replacing table: wp_tfhb_meta: rows: 0
+0004.736 () Processing table (InnoDB): wp_tfhb_transactions - will restore as: vh_tfhb_transactions
+0004.756 () Atomic restore: dropping original table (wp_tfhb_transactions)
+0004.763 () Atomic restore: renaming new table (vh_tfhb_transactions) to final table name (wp_tfhb_transactions)
+0004.772 () Search and replacing table: wp_tfhb_transactions: rows: 0
+0004.772 () Processing table (InnoDB): wp_uacf7_form - will restore as: vh_uacf7_form
+0004.794 () Atomic restore: dropping original table (wp_uacf7_form)
+0004.801 () Atomic restore: renaming new table (vh_uacf7_form) to final table name (wp_uacf7_form)
+0004.809 () Search and replacing table: wp_uacf7_form: rows: 6
+0004.810 () Processing table (InnoDB): wp_uacf7dp_data - will restore as: vh_uacf7dp_data
+0004.830 () Atomic restore: dropping original table (wp_uacf7dp_data)
+0004.838 () Atomic restore: renaming new table (vh_uacf7dp_data) to final table name (wp_uacf7dp_data)
+0004.846 () Search and replacing table: wp_uacf7dp_data: rows: 6
+0004.847 () Processing table (InnoDB): wp_uacf7dp_data_entry - will restore as: vh_uacf7dp_data_entry
+0004.902 () Atomic restore: dropping original table (wp_uacf7dp_data_entry)
+0004.912 () Database queries processed: 150 in 4.73 seconds
+0004.913 () Atomic restore: renaming new table (vh_uacf7dp_data_entry) to final table name (wp_uacf7dp_data_entry)
+0004.925 () Search and replacing table: wp_uacf7dp_data_entry: rows: 75
+0004.926 () Processing table (InnoDB): wp_wpforms_logs - will restore as: vh_wpforms_logs
+0004.946 () Atomic restore: dropping original table (wp_wpforms_logs)
+0004.954 () Atomic restore: renaming new table (vh_wpforms_logs) to final table name (wp_wpforms_logs)
+0004.962 () Search and replacing table: wp_wpforms_logs: rows: 0
+0004.962 () Processing table (InnoDB): wp_wpforms_payment_meta - will restore as: vh_wpforms_payment_meta
+0004.988 () Atomic restore: dropping original table (wp_wpforms_payment_meta)
+0004.996 () Atomic restore: renaming new table (vh_wpforms_payment_meta) to final table name (wp_wpforms_payment_meta)
+0005.005 () Search and replacing table: wp_wpforms_payment_meta: rows: 0
+0005.006 () Processing table (InnoDB): wp_wpforms_payments - will restore as: vh_wpforms_payments
+0005.048 () Atomic restore: dropping original table (wp_wpforms_payments)
+0005.056 () Atomic restore: renaming new table (vh_wpforms_payments) to final table name (wp_wpforms_payments)
+0005.067 () Search and replacing table: wp_wpforms_payments: rows: 0
+0005.067 () Processing table (InnoDB): wp_wpforms_tasks_meta - will restore as: vh_wpforms_tasks_meta
+0005.077 () Skipped execution of SQL statement (unwanted or internally handled type=18): /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+0005.080 () Unlocking database and leaving maintenance mode
+0005.081 () Disabling Maintenance mode&#8230;
+0005.083 () Atomic restore: dropping original table (wp_wpforms_tasks_meta)
+0005.091 () Atomic restore: renaming new table (vh_wpforms_tasks_meta) to final table name (wp_wpforms_tasks_meta)
+0005.098 () Search and replacing table: wp_wpforms_tasks_meta: rows: 0
+0005.099 () Finished: lines processed: 160 in 4.92 seconds
+0005.102 () Cleaning up rubbish...
+0005.105 () Begin search and replace (updraftplus_restored_db)
+0005.106 () [Database-replace-site-url] Database: search and replace site URL
+0005.106 () Database search and replace: replace https://barzza.ae in backup dump with http://localhost:8080
+0005.107 () Database search and replace: replace http://www.barzza.ae in backup dump with http://localhost:8080
+0005.107 () Database search and replace: replace http://barzza.ae in backup dump with http://localhost:8080
+0005.108 () Database search and replace: replace https://www.barzza.ae in backup dump with http://localhost:8080
+0005.108 () Database search and replace: replace /home/u468547074/domains/barzza.ae/public_html in backup dump with /var/www/html
+0005.110 () Search and replacing table: wp_actionscheduler_actions: already done
+0005.110 () Search and replacing table: wp_actionscheduler_claims: already done
+0005.111 () Search and replacing table: wp_actionscheduler_groups: already done
+0005.111 () Search and replacing table: wp_actionscheduler_logs: already done
+0005.112 () Search and replacing table: wp_bwg_album: already done
+0005.112 () Search and replacing table: wp_bwg_album_gallery: already done
+0005.112 () Search and replacing table: wp_bwg_file_paths: already done
+0005.113 () Search and replacing table: wp_bwg_gallery: already done
+0005.113 () Search and replacing table: wp_bwg_image: already done
+0005.114 () Search and replacing table: wp_bwg_image_comment: already done
+0005.114 () Search and replacing table: wp_bwg_image_rate: already done
+0005.115 () Search and replacing table: wp_bwg_image_tag: already done
+0005.115 () Search and replacing table: wp_bwg_shortcode: already done
+0005.116 () Search and replacing table: wp_bwg_theme: already done
+0005.116 () Search and replacing table: wp_cf7_inquiries: already done
+0005.116 () Search and replacing table: wp_commentmeta: already done
+0005.117 () Search and replacing table: wp_comments: already done
+0005.117 () Search and replacing table: wp_frm_fields: already done
+0005.118 () Search and replacing table: wp_frm_forms: already done
+0005.119 () Search and replacing table: wp_frm_item_metas: already done
+0005.119 () Search and replacing table: wp_frm_items: already done
+0005.120 () Search and replacing table: wp_hostinger_reach_carts: already done
+0005.120 () Search and replacing table: wp_hostinger_reach_contact_lists: already done
+0005.121 () Search and replacing table: wp_hostinger_reach_forms: already done
+0005.121 () Search and replacing table: wp_links: already done
+0005.121 () Search and replacing table: wp_litespeed_url: already done
+0005.122 () Search and replacing table: wp_litespeed_url_file: already done
+0005.122 () Search and replacing table: wp_nextend2_image_storage: already done
+0005.123 () Search and replacing table: wp_nextend2_section_storage: already done
+0005.123 () Search and replacing table: wp_nextend2_smartslider3_generators: already done
+0005.124 () Search and replacing table: wp_nextend2_smartslider3_sliders: already done
+0005.124 () Search and replacing table: wp_nextend2_smartslider3_sliders_xref: already done
+0005.125 () Search and replacing table: wp_nextend2_smartslider3_slides: already done
+0005.125 () Search and replacing table: wp_options: already done
+0005.126 () Search and replacing table: wp_postmeta: already done
+0005.126 () Search and replacing table: wp_posts: already done
+0005.127 () Search and replacing table: wp_term_relationships: already done
+0005.127 () Search and replacing table: wp_term_taxonomy: already done
+0005.128 () Search and replacing table: wp_termmeta: already done
+0005.128 () Search and replacing table: wp_terms: already done
+0005.129 () Search and replacing table: wp_tfhb_attendees: already done
+0005.129 () Search and replacing table: wp_tfhb_availability: already done
+0005.129 () Search and replacing table: wp_tfhb_booking_meta: already done
+0005.130 () Search and replacing table: wp_tfhb_bookings: already done
+0005.130 () Search and replacing table: wp_tfhb_hosts: already done
+0005.131 () Search and replacing table: wp_tfhb_meetings: already done
+0005.132 () Search and replacing table: wp_tfhb_meta: already done
+0005.132 () Search and replacing table: wp_tfhb_transactions: already done
+0005.133 () Search and replacing table: wp_uacf7_form: already done
+0005.133 () Search and replacing table: wp_uacf7dp_data: already done
+0005.133 () Search and replacing table: wp_uacf7dp_data_entry: already done
+0005.134 () Search and replacing table: wp_usermeta: already done
+0005.134 () Search and replacing table: wp_users: already done
+0005.135 () Search and replacing table: wp_wpforms_logs: already done
+0005.136 () Search and replacing table: wp_wpforms_payment_meta: already done
+0005.136 () Search and replacing table: wp_wpforms_payments: already done
+0005.137 () Search and replacing table: wp_wpforms_tasks_meta: already done
+0005.411 () Plugin path custom-css-js/custom-css-js.php not found: de-activating.
+0005.412 () Plugin path hostinger-ai-assistant/hostinger-ai-assistant.php not found: de-activating.
+0005.412 () Plugin path hostinger-easy-onboarding/hostinger-easy-onboarding.php not found: de-activating.
+0005.413 () Plugin path hostinger-reach/hostinger-reach.php not found: de-activating.
+0005.413 () Plugin path hostinger/hostinger.php not found: de-activating.
+0005.414 () Plugin path litespeed-cache/litespeed-cache.php not found: de-activating.
+0005.414 () Plugin path wp-rest-api-authentication/miniorange-api-authentication.php not found: de-activating.
+0005.441 () Restore successful!
+0005.442 () Restore successful

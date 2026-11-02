@@ -312,9 +312,12 @@ body.page.has-sticky-header .entry-header {
     color: #fff;
     background-color: #ac8f64;
 }
+figure.wp-block-video.alignfull {
+    margin: 30px 0;
+}
 
 figure.wp-block-video.alignfull::before {
-    content: '';
+    /* content: ''; */
     height: calc(100vw / 24);
     display: block;
     background: #f7f8f8;
@@ -323,7 +326,7 @@ figure.wp-block-video.alignfull::before {
 }
 
 figure.wp-block-video.alignfull::after {
-    content: '';
+    /* content: ''; */
     height: calc(100vw / 24);
     display: block;
     background: #f7f8f8;
